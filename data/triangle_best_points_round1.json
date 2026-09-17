@@ -1,0 +1,18 @@
+{
+  "dual_bound": 13.0,
+  "optimum": 13.0,
+  "parameters_degrees": {
+    "beta_a": 84.42411220894863,
+    "beta_b": 51.69886334694425,
+    "beta_c": 87.4473136663135,
+    "beta_o": 65.03197311151155,
+    "phase_o": 14.032415340471845
+  },
+  "pattern_count": 104,
+  "pattern_hash": "0de37f584cf6493c2f0acf4d8c315fdb89cd775dd13b4b30d36a67cf20e1f838",
+  "point_count": 75,
+  "point_hash": "593a62bc8ca6c54d4508046e0de6602f20647d8129f3d6ddd4f4592fd25cb274",
+  "seed": 1,
+  "solve_seconds": 0.038512871018610895,
+  "status": 0
+}

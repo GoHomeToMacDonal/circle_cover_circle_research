@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc" data-covering-circles="25" data-key-points="40">
+<title id="title">外层分拆证书：40 个关键点与 25 个覆盖圆</title>
+<desc id="desc">目标单位圆盘内的 25 个半径 lambda 覆盖圆，以及文档第 7 节八个 B_k 组中的 40 个关键点。鼠标悬停关键点可查看名称。</desc>
+<metadata>normalized-scale; lambda=1/(sqrt(6)+sqrt(3)); covering-circles=25; key-points=40</metadata>
+<defs>
+      <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.12"/>
+      </filter>
+      <style>
+        svg { background: #f7f8fa; color: #172033; font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+        .plot-bg { fill: #fff; stroke: #d8dee9; stroke-width: 1.5; filter: url(#shadow); }
+        .target-disk { fill: #f8fafc; stroke: #172033; stroke-width: 3; }
+        .axis { stroke: #94a3b8; stroke-width: 1; stroke-dasharray: 5 7; opacity: .45; }
+        .covering-circle { fill: none; stroke-width: 1.8; vector-effect: non-scaling-stroke; }
+        .circle-O { fill: #64748b; stroke: #475569; stroke-dasharray: 4 4; }
+        .circle-A { fill: #14b8a6; stroke: #0f766e; }
+        .circle-B { fill: #3b82f6; stroke: #2563eb; stroke-width: 2.3; }
+        .circle-C { fill: #f59e0b; stroke: #d97706; stroke-width: 2.3; }
+        .center-dot { stroke: #fff; stroke-width: 1.2; }
+        .center-O { fill: #475569; } .center-A { fill: #0f766e; }
+        .center-B { fill: #2563eb; } .center-C { fill: #d97706; }
+        .center-label { font-size: 11px; font-weight: 650; text-anchor: middle; fill: #27364a; stroke: none; }
+        .membership { stroke: #2563eb; stroke-width: 1.15; opacity: .20; }
+        .key-point { stroke: #fff; stroke-width: 1.8; vector-effect: non-scaling-stroke; cursor: help; }
+        .point-xminus { fill: #e11d48; } .point-xplus { fill: #9333ea; }
+        .point-q { fill: #16a34a; } .point-yb { fill: #0369a1; }
+        .point-node:hover .key-point { r: 7.5px; stroke: #111827; stroke-width: 2.2; }
+        .point-label { display: none; pointer-events: none; font-size: 13px; font-weight: 750; fill: #111827;
+                       paint-order: stroke; stroke: #fff; stroke-width: 4px; }
+        .point-node:hover .point-label { display: block; }
+        .panel { fill: #fff; stroke: #d8dee9; stroke-width: 1.5; filter: url(#shadow); }
+        .title { font-size: 25px; font-weight: 760; fill: #101827; }
+        .subtitle { font-size: 14px; fill: #526176; }
+        .section { font-size: 16px; font-weight: 730; fill: #172033; }
+        .body { font-size: 14px; fill: #42526a; }
+        .small { font-size: 12px; fill: #64748b; }
+        .count { font-size: 23px; font-weight: 780; }
+        .legend-line { stroke-width: 3; }
+        .formula { font-family: "STIX Two Math", "Times New Roman", serif; font-size: 15px; fill: #26364a; }
+      </style>
+    </defs>
+<rect class="plot-bg" x="24" y="24" width="922" height="932" rx="18"/>
+<circle class="target-disk" cx="485.0" cy="490.0" r="410.0"/>
+<line x1="75.000" y1="490.000" x2="895.000" y2="490.000" class="axis"/>
+<line x1="485.000" y1="80.000" x2="485.000" y2="900.000" class="axis"/>
+<text x="58" y="58" class="small">归一化目标圆盘  |p| ≤ 1</text>
+<g id="B-memberships" aria-label="八个 B_k 组的点归属连线">
+<line x1="819.764" y1="490.000" x2="889.095" y2="420.668" class="membership"/>
+<line x1="819.764" y1="490.000" x2="889.095" y2="559.332" class="membership"/>
+<line x1="819.764" y1="490.000" x2="891.492" y2="543.516" class="membership"/>
+<line x1="819.764" y1="490.000" x2="891.492" y2="436.484" class="membership"/>
+<line x1="819.764" y1="490.000" x2="721.714" y2="490.000" class="membership"/>
+<line x1="721.714" y1="253.286" x2="721.714" y2="155.236" class="membership"/>
+<line x1="721.714" y1="253.286" x2="819.764" y2="253.286" class="membership"/>
+<line x1="721.714" y1="253.286" x2="810.275" y2="240.408" class="membership"/>
+<line x1="721.714" y1="253.286" x2="734.592" y2="164.725" class="membership"/>
+<line x1="721.714" y1="253.286" x2="652.382" y2="322.618" class="membership"/>
+<line x1="485.000" y1="155.236" x2="415.668" y2="85.905" class="membership"/>
+<line x1="485.000" y1="155.236" x2="554.332" y2="85.905" class="membership"/>
+<line x1="485.000" y1="155.236" x2="538.516" y2="83.508" class="membership"/>
+<line x1="485.000" y1="155.236" x2="431.484" y2="83.508" class="membership"/>
+<line x1="485.000" y1="155.236" x2="485.000" y2="253.286" class="membership"/>
+<line x1="248.286" y1="253.286" x2="150.236" y2="253.286" class="membership"/>
+<line x1="248.286" y1="253.286" x2="248.286" y2="155.236" class="membership"/>
+<line x1="248.286" y1="253.286" x2="235.408" y2="164.725" class="membership"/>
+<line x1="248.286" y1="253.286" x2="159.725" y2="240.408" class="membership"/>
+<line x1="248.286" y1="253.286" x2="317.618" y2="322.618" class="membership"/>
+<line x1="150.236" y1="490.000" x2="80.905" y2="559.332" class="membership"/>
+<line x1="150.236" y1="490.000" x2="80.905" y2="420.668" class="membership"/>
+<line x1="150.236" y1="490.000" x2="78.508" y2="436.484" class="membership"/>
+<line x1="150.236" y1="490.000" x2="78.508" y2="543.516" class="membership"/>
+<line x1="150.236" y1="490.000" x2="248.286" y2="490.000" class="membership"/>
+<line x1="248.286" y1="726.714" x2="248.286" y2="824.764" class="membership"/>
+<line x1="248.286" y1="726.714" x2="150.236" y2="726.714" class="membership"/>
+<line x1="248.286" y1="726.714" x2="159.725" y2="739.592" class="membership"/>
+<line x1="248.286" y1="726.714" x2="235.408" y2="815.275" class="membership"/>
+<line x1="248.286" y1="726.714" x2="317.618" y2="657.382" class="membership"/>
+<line x1="485.000" y1="824.764" x2="554.332" y2="894.095" class="membership"/>
+<line x1="485.000" y1="824.764" x2="415.668" y2="894.095" class="membership"/>
+<line x1="485.000" y1="824.764" x2="431.484" y2="896.492" class="membership"/>
+<line x1="485.000" y1="824.764" x2="538.516" y2="896.492" class="membership"/>
+<line x1="485.000" y1="824.764" x2="485.000" y2="726.714" class="membership"/>
+<line x1="721.714" y1="726.714" x2="819.764" y2="726.714" class="membership"/>
+<line x1="721.714" y1="726.714" x2="721.714" y2="824.764" class="membership"/>
+<line x1="721.714" y1="726.714" x2="734.592" y2="815.275" class="membership"/>
+<line x1="721.714" y1="726.714" x2="810.275" y2="739.592" class="membership"/>
+<line x1="721.714" y1="726.714" x2="652.382" y2="657.382" class="membership"/>
+</g>
+<g id="covering-circles" aria-label="25 个覆盖圆">
+<g><title>O：圆心 (0.000000, 0.000000)，半径 λ=0.239146312</title><circle class="covering-circle circle-O" data-circle="O" cx="485.000" cy="490.000" r="98.050" fill="none" stroke="#475569" stroke-width="1.8" stroke-dasharray="4 4"/></g>
+<g><title>A0：圆心 (0.408248, 0.169102)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A0" cx="652.382" cy="420.668" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A1：圆心 (0.169102, 0.408248)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A1" cx="554.332" cy="322.618" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A2：圆心 (-0.169102, 0.408248)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A2" cx="415.668" cy="322.618" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A3：圆心 (-0.408248, 0.169102)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A3" cx="317.618" cy="420.668" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A4：圆心 (-0.408248, -0.169102)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A4" cx="317.618" cy="559.332" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A5：圆心 (-0.169102, -0.408248)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A5" cx="415.668" cy="657.382" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A6：圆心 (0.169102, -0.408248)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A6" cx="554.332" cy="657.382" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>A7：圆心 (0.408248, -0.169102)，半径 λ=0.239146312</title><circle class="covering-circle circle-A" data-circle="A7" cx="652.382" cy="559.332" r="98.050" fill="none" stroke="#0f766e" stroke-width="1.8"/></g>
+<g><title>B0：圆心 (0.816497, 0.000000)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B0" cx="819.764" cy="490.000" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B1：圆心 (0.577350, 0.577350)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B1" cx="721.714" cy="253.286" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B2：圆心 (0.000000, 0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B2" cx="485.000" cy="155.236" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B3：圆心 (-0.577350, 0.577350)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B3" cx="248.286" cy="253.286" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B4：圆心 (-0.816497, 0.000000)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B4" cx="150.236" cy="490.000" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B5：圆心 (-0.577350, -0.577350)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B5" cx="248.286" cy="726.714" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B6：圆心 (-0.000000, -0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B6" cx="485.000" cy="824.764" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>B7：圆心 (0.577350, -0.577350)，半径 λ=0.239146312</title><circle class="covering-circle circle-B" data-circle="B7" cx="721.714" cy="726.714" r="98.050" fill="none" stroke="#2563eb" stroke-width="2.3"/></g>
+<g><title>C0：圆心 (0.816497, 0.338204)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C0" cx="819.764" cy="351.336" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C1：圆心 (0.338204, 0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C1" cx="623.664" cy="155.236" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C2：圆心 (-0.338204, 0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C2" cx="346.336" cy="155.236" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C3：圆心 (-0.816497, 0.338204)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C3" cx="150.236" cy="351.336" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C4：圆心 (-0.816497, -0.338204)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C4" cx="150.236" cy="628.664" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C5：圆心 (-0.338204, -0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C5" cx="346.336" cy="824.764" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C6：圆心 (0.338204, -0.816497)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C6" cx="623.664" cy="824.764" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+<g><title>C7：圆心 (0.816497, -0.338204)，半径 λ=0.239146312</title><circle class="covering-circle circle-C" data-circle="C7" cx="819.764" cy="628.664" r="98.050" fill="none" stroke="#d97706" stroke-width="2.3"/></g>
+</g>
+<g id="circle-centers" aria-label="覆盖圆圆心">
+<circle class="center-dot center-O" cx="485.000" cy="490.000" r="3.5" fill="#475569" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="485.000" y="483.000">O</text>
+<circle class="center-dot center-A" cx="652.382" cy="420.668" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="652.382" y="413.668">A0</text>
+<circle class="center-dot center-A" cx="554.332" cy="322.618" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="554.332" y="315.618">A1</text>
+<circle class="center-dot center-A" cx="415.668" cy="322.618" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="415.668" y="315.618">A2</text>
+<circle class="center-dot center-A" cx="317.618" cy="420.668" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="317.618" y="413.668">A3</text>
+<circle class="center-dot center-A" cx="317.618" cy="559.332" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="317.618" y="573.332">A4</text>
+<circle class="center-dot center-A" cx="415.668" cy="657.382" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="415.668" y="671.382">A5</text>
+<circle class="center-dot center-A" cx="554.332" cy="657.382" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="554.332" y="671.382">A6</text>
+<circle class="center-dot center-A" cx="652.382" cy="559.332" r="3.5" fill="#0f766e" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="652.382" y="573.332">A7</text>
+<circle class="center-dot center-B" cx="819.764" cy="490.000" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="819.764" y="483.000">B0</text>
+<circle class="center-dot center-B" cx="721.714" cy="253.286" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="721.714" y="246.286">B1</text>
+<circle class="center-dot center-B" cx="485.000" cy="155.236" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="485.000" y="148.236">B2</text>
+<circle class="center-dot center-B" cx="248.286" cy="253.286" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="248.286" y="246.286">B3</text>
+<circle class="center-dot center-B" cx="150.236" cy="490.000" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="150.236" y="483.000">B4</text>
+<circle class="center-dot center-B" cx="248.286" cy="726.714" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="248.286" y="740.714">B5</text>
+<circle class="center-dot center-B" cx="485.000" cy="824.764" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="485.000" y="838.764">B6</text>
+<circle class="center-dot center-B" cx="721.714" cy="726.714" r="3.5" fill="#2563eb" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="721.714" y="740.714">B7</text>
+<circle class="center-dot center-C" cx="819.764" cy="351.336" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="819.764" y="344.336">C0</text>
+<circle class="center-dot center-C" cx="623.664" cy="155.236" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="623.664" y="148.236">C1</text>
+<circle class="center-dot center-C" cx="346.336" cy="155.236" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="346.336" y="148.236">C2</text>
+<circle class="center-dot center-C" cx="150.236" cy="351.336" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="150.236" y="344.336">C3</text>
+<circle class="center-dot center-C" cx="150.236" cy="628.664" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="150.236" y="642.664">C4</text>
+<circle class="center-dot center-C" cx="346.336" cy="824.764" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="346.336" y="838.764">C5</text>
+<circle class="center-dot center-C" cx="623.664" cy="824.764" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="623.664" y="838.764">C6</text>
+<circle class="center-dot center-C" cx="819.764" cy="628.664" r="3.5" fill="#d97706" stroke="#fff" stroke-width="1.2"/>
+<text class="center-label" x="819.764" y="642.664">C7</text>
+</g>
+<g id="key-points" aria-label="40 个关键点">
+<g class="point-node" data-point="X-0"><title>X-0 = (0.985599, 0.169102)</title>
+<circle class="key-point point-xminus" cx="889.095" cy="420.668" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="0.985598560" data-y="0.169101979"/>
+<text class="point-label" x="899.095" y="411.668" text-anchor="start">X-0</text>
+</g>
+<g class="point-node" data-point="X-1"><title>X-1 = (0.577350, 0.816497)</title>
+<circle class="key-point point-xminus" cx="721.714" cy="155.236" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="0.577350269" data-y="0.816496581"/>
+<text class="point-label" x="731.714" y="146.236" text-anchor="start">X-1</text>
+</g>
+<g class="point-node" data-point="X-2"><title>X-2 = (-0.169102, 0.985599)</title>
+<circle class="key-point point-xminus" cx="415.668" cy="85.905" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="-0.169101979" data-y="0.985598560"/>
+<text class="point-label" x="405.668" y="76.905" text-anchor="end">X-2</text>
+</g>
+<g class="point-node" data-point="X-3"><title>X-3 = (-0.816497, 0.577350)</title>
+<circle class="key-point point-xminus" cx="150.236" cy="253.286" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="-0.816496581" data-y="0.577350269"/>
+<text class="point-label" x="140.236" y="244.286" text-anchor="end">X-3</text>
+</g>
+<g class="point-node" data-point="X-4"><title>X-4 = (-0.985599, -0.169102)</title>
+<circle class="key-point point-xminus" cx="80.905" cy="559.332" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="-0.985598560" data-y="-0.169101979"/>
+<text class="point-label" x="70.905" y="575.332" text-anchor="end">X-4</text>
+</g>
+<g class="point-node" data-point="X-5"><title>X-5 = (-0.577350, -0.816497)</title>
+<circle class="key-point point-xminus" cx="248.286" cy="824.764" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="-0.577350269" data-y="-0.816496581"/>
+<text class="point-label" x="238.286" y="840.764" text-anchor="end">X-5</text>
+</g>
+<g class="point-node" data-point="X-6"><title>X-6 = (0.169102, -0.985599)</title>
+<circle class="key-point point-xminus" cx="554.332" cy="894.095" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="0.169101979" data-y="-0.985598560"/>
+<text class="point-label" x="564.332" y="910.095" text-anchor="start">X-6</text>
+</g>
+<g class="point-node" data-point="X-7"><title>X-7 = (0.816497, -0.577350)</title>
+<circle class="key-point point-xminus" cx="819.764" cy="726.714" r="5.2" fill="#e11d48" stroke="#fff" stroke-width="1.8" data-x="0.816496581" data-y="-0.577350269"/>
+<text class="point-label" x="829.764" y="742.714" text-anchor="start">X-7</text>
+</g>
+<g class="point-node" data-point="X+0"><title>X+0 = (0.816497, 0.577350)</title>
+<circle class="key-point point-xplus" cx="819.764" cy="253.286" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="0.816496581" data-y="0.577350269"/>
+<text class="point-label" x="829.764" y="244.286" text-anchor="start">X+0</text>
+</g>
+<g class="point-node" data-point="X+1"><title>X+1 = (0.169102, 0.985599)</title>
+<circle class="key-point point-xplus" cx="554.332" cy="85.905" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="0.169101979" data-y="0.985598560"/>
+<text class="point-label" x="564.332" y="76.905" text-anchor="start">X+1</text>
+</g>
+<g class="point-node" data-point="X+2"><title>X+2 = (-0.577350, 0.816497)</title>
+<circle class="key-point point-xplus" cx="248.286" cy="155.236" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="-0.577350269" data-y="0.816496581"/>
+<text class="point-label" x="238.286" y="146.236" text-anchor="end">X+2</text>
+</g>
+<g class="point-node" data-point="X+3"><title>X+3 = (-0.985599, 0.169102)</title>
+<circle class="key-point point-xplus" cx="80.905" cy="420.668" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="-0.985598560" data-y="0.169101979"/>
+<text class="point-label" x="70.905" y="411.668" text-anchor="end">X+3</text>
+</g>
+<g class="point-node" data-point="X+4"><title>X+4 = (-0.816497, -0.577350)</title>
+<circle class="key-point point-xplus" cx="150.236" cy="726.714" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="-0.816496581" data-y="-0.577350269"/>
+<text class="point-label" x="140.236" y="742.714" text-anchor="end">X+4</text>
+</g>
+<g class="point-node" data-point="X+5"><title>X+5 = (-0.169102, -0.985599)</title>
+<circle class="key-point point-xplus" cx="415.668" cy="894.095" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="-0.169101979" data-y="-0.985598560"/>
+<text class="point-label" x="405.668" y="910.095" text-anchor="end">X+5</text>
+</g>
+<g class="point-node" data-point="X+6"><title>X+6 = (0.577350, -0.816497)</title>
+<circle class="key-point point-xplus" cx="721.714" cy="824.764" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="0.577350269" data-y="-0.816496581"/>
+<text class="point-label" x="731.714" y="840.764" text-anchor="start">X+6</text>
+</g>
+<g class="point-node" data-point="X+7"><title>X+7 = (0.985599, -0.169102)</title>
+<circle class="key-point point-xplus" cx="889.095" cy="559.332" r="5.2" fill="#9333ea" stroke="#fff" stroke-width="1.8" data-x="0.985598560" data-y="-0.169101979"/>
+<text class="point-label" x="899.095" y="575.332" text-anchor="start">X+7</text>
+</g>
+<g class="point-node" data-point="Q0"><title>Q0 = (0.991445, 0.130526)</title>
+<circle class="key-point point-q" cx="891.492" cy="436.484" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.991444861" data-y="0.130526192"/>
+<text class="point-label" x="901.492" y="427.484" text-anchor="start">Q0</text>
+</g>
+<g class="point-node" data-point="Q2"><title>Q2 = (0.793353, 0.608761)</title>
+<circle class="key-point point-q" cx="810.275" cy="240.408" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.793353340" data-y="0.608761429"/>
+<text class="point-label" x="820.275" y="231.408" text-anchor="start">Q2</text>
+</g>
+<g class="point-node" data-point="Q3"><title>Q3 = (0.608761, 0.793353)</title>
+<circle class="key-point point-q" cx="734.592" cy="164.725" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.608761429" data-y="0.793353340"/>
+<text class="point-label" x="744.592" y="155.725" text-anchor="start">Q3</text>
+</g>
+<g class="point-node" data-point="Q5"><title>Q5 = (0.130526, 0.991445)</title>
+<circle class="key-point point-q" cx="538.516" cy="83.508" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.130526192" data-y="0.991444861"/>
+<text class="point-label" x="548.516" y="74.508" text-anchor="start">Q5</text>
+</g>
+<g class="point-node" data-point="Q6"><title>Q6 = (-0.130526, 0.991445)</title>
+<circle class="key-point point-q" cx="431.484" cy="83.508" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.130526192" data-y="0.991444861"/>
+<text class="point-label" x="421.484" y="74.508" text-anchor="end">Q6</text>
+</g>
+<g class="point-node" data-point="Q8"><title>Q8 = (-0.608761, 0.793353)</title>
+<circle class="key-point point-q" cx="235.408" cy="164.725" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.608761429" data-y="0.793353340"/>
+<text class="point-label" x="225.408" y="155.725" text-anchor="end">Q8</text>
+</g>
+<g class="point-node" data-point="Q9"><title>Q9 = (-0.793353, 0.608761)</title>
+<circle class="key-point point-q" cx="159.725" cy="240.408" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.793353340" data-y="0.608761429"/>
+<text class="point-label" x="149.725" y="231.408" text-anchor="end">Q9</text>
+</g>
+<g class="point-node" data-point="Q11"><title>Q11 = (-0.991445, 0.130526)</title>
+<circle class="key-point point-q" cx="78.508" cy="436.484" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.991444861" data-y="0.130526192"/>
+<text class="point-label" x="68.508" y="427.484" text-anchor="end">Q11</text>
+</g>
+<g class="point-node" data-point="Q12"><title>Q12 = (-0.991445, -0.130526)</title>
+<circle class="key-point point-q" cx="78.508" cy="543.516" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.991444861" data-y="-0.130526192"/>
+<text class="point-label" x="68.508" y="559.516" text-anchor="end">Q12</text>
+</g>
+<g class="point-node" data-point="Q14"><title>Q14 = (-0.793353, -0.608761)</title>
+<circle class="key-point point-q" cx="159.725" cy="739.592" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.793353340" data-y="-0.608761429"/>
+<text class="point-label" x="149.725" y="755.592" text-anchor="end">Q14</text>
+</g>
+<g class="point-node" data-point="Q15"><title>Q15 = (-0.608761, -0.793353)</title>
+<circle class="key-point point-q" cx="235.408" cy="815.275" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.608761429" data-y="-0.793353340"/>
+<text class="point-label" x="225.408" y="831.275" text-anchor="end">Q15</text>
+</g>
+<g class="point-node" data-point="Q17"><title>Q17 = (-0.130526, -0.991445)</title>
+<circle class="key-point point-q" cx="431.484" cy="896.492" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="-0.130526192" data-y="-0.991444861"/>
+<text class="point-label" x="421.484" y="912.492" text-anchor="end">Q17</text>
+</g>
+<g class="point-node" data-point="Q18"><title>Q18 = (0.130526, -0.991445)</title>
+<circle class="key-point point-q" cx="538.516" cy="896.492" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.130526192" data-y="-0.991444861"/>
+<text class="point-label" x="548.516" y="912.492" text-anchor="start">Q18</text>
+</g>
+<g class="point-node" data-point="Q20"><title>Q20 = (0.608761, -0.793353)</title>
+<circle class="key-point point-q" cx="734.592" cy="815.275" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.608761429" data-y="-0.793353340"/>
+<text class="point-label" x="744.592" y="831.275" text-anchor="start">Q20</text>
+</g>
+<g class="point-node" data-point="Q21"><title>Q21 = (0.793353, -0.608761)</title>
+<circle class="key-point point-q" cx="810.275" cy="739.592" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.793353340" data-y="-0.608761429"/>
+<text class="point-label" x="820.275" y="755.592" text-anchor="start">Q21</text>
+</g>
+<g class="point-node" data-point="Q23"><title>Q23 = (0.991445, -0.130526)</title>
+<circle class="key-point point-q" cx="891.492" cy="543.516" r="5.2" fill="#16a34a" stroke="#fff" stroke-width="1.8" data-x="0.991444861" data-y="-0.130526192"/>
+<text class="point-label" x="901.492" y="559.516" text-anchor="start">Q23</text>
+</g>
+<g class="point-node" data-point="YB0"><title>YB0 = (0.577350, 0.000000)</title>
+<circle class="key-point point-yb" cx="721.714" cy="490.000" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="0.577350269" data-y="0.000000000"/>
+<text class="point-label" x="731.714" y="481.000" text-anchor="start">YB0</text>
+</g>
+<g class="point-node" data-point="YB1"><title>YB1 = (0.408248, 0.408248)</title>
+<circle class="key-point point-yb" cx="652.382" cy="322.618" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="0.408248290" data-y="0.408248290"/>
+<text class="point-label" x="662.382" y="313.618" text-anchor="start">YB1</text>
+</g>
+<g class="point-node" data-point="YB2"><title>YB2 = (0.000000, 0.577350)</title>
+<circle class="key-point point-yb" cx="485.000" cy="253.286" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="0.000000000" data-y="0.577350269"/>
+<text class="point-label" x="495.000" y="244.286" text-anchor="start">YB2</text>
+</g>
+<g class="point-node" data-point="YB3"><title>YB3 = (-0.408248, 0.408248)</title>
+<circle class="key-point point-yb" cx="317.618" cy="322.618" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="-0.408248290" data-y="0.408248290"/>
+<text class="point-label" x="307.618" y="313.618" text-anchor="end">YB3</text>
+</g>
+<g class="point-node" data-point="YB4"><title>YB4 = (-0.577350, 0.000000)</title>
+<circle class="key-point point-yb" cx="248.286" cy="490.000" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="-0.577350269" data-y="0.000000000"/>
+<text class="point-label" x="238.286" y="481.000" text-anchor="end">YB4</text>
+</g>
+<g class="point-node" data-point="YB5"><title>YB5 = (-0.408248, -0.408248)</title>
+<circle class="key-point point-yb" cx="317.618" cy="657.382" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="-0.408248290" data-y="-0.408248290"/>
+<text class="point-label" x="307.618" y="673.382" text-anchor="end">YB5</text>
+</g>
+<g class="point-node" data-point="YB6"><title>YB6 = (-0.000000, -0.577350)</title>
+<circle class="key-point point-yb" cx="485.000" cy="726.714" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="-0.000000000" data-y="-0.577350269"/>
+<text class="point-label" x="475.000" y="742.714" text-anchor="end">YB6</text>
+</g>
+<g class="point-node" data-point="YB7"><title>YB7 = (0.408248, -0.408248)</title>
+<circle class="key-point point-yb" cx="652.382" cy="657.382" r="5.2" fill="#0369a1" stroke="#fff" stroke-width="1.8" data-x="0.408248290" data-y="-0.408248290"/>
+<text class="point-label" x="662.382" y="673.382" text-anchor="start">YB7</text>
+</g>
+</g>
+<rect class="panel" x="970" y="24" width="406" height="932" rx="18"/>
+<text class="title" x="1002" y="70">40 个关键点 / 25 个圆</text>
+<text class="subtitle" x="1002" y="98">outer_partition_certificate · 第 7 节</text>
+<text class="body" x="1002" y="130">八个 Bₖ 显式组的并集；蓝色细线表示归属。</text>
+<text class="section" x="1002" y="178">关键点（共 40）</text>
+<path d="M1012 211a6 6 0 1 0 12 0a6 6 0 1 0-12 0" fill="#e11d48" stroke="#fff" stroke-width="1.5"/>
+<text class="body" x="1038" y="216"><tspan font-weight="730">X⁻</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">单位圆周交点</tspan></text>
+<path d="M1012 253a6 6 0 1 0 12 0a6 6 0 1 0-12 0" fill="#9333ea" stroke="#fff" stroke-width="1.5"/>
+<text class="body" x="1038" y="258"><tspan font-weight="730">X⁺</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">单位圆周交点</tspan></text>
+<path d="M1012 295a6 6 0 1 0 12 0a6 6 0 1 0-12 0" fill="#16a34a" stroke="#fff" stroke-width="1.5"/>
+<text class="body" x="1038" y="300"><tspan font-weight="730">Q</tspan><tspan x="1092">× 16</tspan><tspan x="1144" class="small">j mod 3 ∈ {0, 2}</tspan></text>
+<path d="M1012 337a6 6 0 1 0 12 0a6 6 0 1 0-12 0" fill="#0369a1" stroke="#fff" stroke-width="1.5"/>
+<text class="body" x="1038" y="342"><tspan font-weight="730">Yᴮ</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">Bₖ 的径向最内点</tspan></text>
+<text class="section" x="1002" y="402">覆盖圆（共 25）</text>
+<path class="legend-line" d="M1007 436h24" stroke="#475569"/>
+<text class="body" x="1044" y="441"><tspan font-weight="730">O</tspan><tspan x="1092">× 1</tspan><tspan x="1144" class="small">中心层</tspan></text>
+<path class="legend-line" d="M1007 478h24" stroke="#0f766e"/>
+<text class="body" x="1044" y="483"><tspan font-weight="730">Aₖ</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">内层</tspan></text>
+<path class="legend-line" d="M1007 520h24" stroke="#2563eb"/>
+<text class="body" x="1044" y="525"><tspan font-weight="730">Bₖ</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">外层 / 覆盖这 40 点</tspan></text>
+<path class="legend-line" d="M1007 562h24" stroke="#d97706"/>
+<text class="body" x="1044" y="567"><tspan font-weight="730">Cₖ</tspan><tspan x="1092">× 8</tspan><tspan x="1144" class="small">外层</tspan></text>
+<text class="section" x="1002" y="624">尺度与定义</text>
+<text class="formula" x="1002" y="658">λ = 1 / (√6 + √3) ≈ 0.239146312</text>
+<text class="body" x="1002" y="690">目标圆半径：1</text>
+<text class="body" x="1002" y="716">25 个覆盖圆半径：λ</text>
+<text class="body" x="1002" y="742">Bₖ 组：{Xₖ⁻, Xₖ₋₁⁺, Q₃ₖ₋₁, Q₃ₖ, Yₖᴮ}</text>
+<text class="section" x="1002" y="798">观察提示</text>
+<text class="body" x="1002" y="830">• 在浏览器中悬停彩色点可显示名称和坐标。</text>
+<text class="body" x="1002" y="856">• X⁻/X⁺ 位于黑色单位圆周上，彼此很接近。</text>
+<text class="body" x="1002" y="882">• Q 点按 15° 半步相位均匀分布。</text>
+<text class="small" x="1002" y="925">未绘制：其余 8 个 Q₃ₖ₊₁ 与 8 个 Yᶜ（属于 Cₖ 组）。</text>
+</svg>

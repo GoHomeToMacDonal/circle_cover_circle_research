@@ -1,0 +1,1807 @@
+{
+  "count": 100,
+  "lambda": 0.23914631173810025,
+  "start_seed": 0,
+  "trials": [
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 49.028909115721255,
+        "beta_b": 47.26186152925637,
+        "beta_c": 68.33881652833485,
+        "beta_o": 70.66327592946544,
+        "phase_o": 36.59716076401226
+      },
+      "pattern_count": 59,
+      "pattern_hash": "8904fdbb3fd547a0ae473f3e5fdad1ccc31450d67fc135eec80d7a6c89f99680",
+      "point_count": 75,
+      "point_hash": "a37a0d0e58067c1e1e50a80c4dfc4721f3eaaa27398b7744af1f9f6576440042",
+      "seed": 0,
+      "solve_seconds": 0.008781265001744032,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 84.42411220894863,
+        "beta_b": 51.69886334694425,
+        "beta_c": 87.4473136663135,
+        "beta_o": 65.03197311151155,
+        "phase_o": 14.032415340471845
+      },
+      "pattern_count": 104,
+      "pattern_hash": "0de37f584cf6493c2f0acf4d8c315fdb89cd775dd13b4b30d36a67cf20e1f838",
+      "point_count": 75,
+      "point_hash": "593a62bc8ca6c54d4508046e0de6602f20647d8129f3d6ddd4f4592fd25cb274",
+      "seed": 1,
+      "solve_seconds": 0.038512871018610895,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 50.521539457534416,
+        "beta_b": 80.51170684555404,
+        "beta_c": 69.88427681376949,
+        "beta_o": 53.772546041219236,
+        "phase_o": 27.00452366845443
+      },
+      "pattern_count": 121,
+      "pattern_hash": "f44aa90826847f9730ba6ea9cde8bd954a003e63667118fc98390bd0c0999cb6",
+      "point_count": 75,
+      "point_hash": "cd1236ccb0501d15314735e9a4d7e05d5d56597f0cdd2b7d13db5817f719b226",
+      "seed": 2,
+      "solve_seconds": 0.024027473060414195,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 47.314146342997184,
+        "beta_b": 79.95480200387507,
+        "beta_c": 79.93432173931954,
+        "beta_o": 45.8542125214631,
+        "phase_o": 4.235788900817964
+      },
+      "pattern_count": 107,
+      "pattern_hash": "086dfc03a0eef2d75a97d053653716cacfdb78fcbd1569a7210e1ee8db4dc2af",
+      "point_count": 75,
+      "point_hash": "54ac1e8edae54db23039e7e8489a2fe8aee4306527da04e7670b2d623c48d538",
+      "seed": 3,
+      "solve_seconds": 0.010844227974303067,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 61.5890327463468,
+        "beta_b": 87.47847934543128,
+        "beta_c": 69.65713848985985,
+        "beta_o": 84.43752475075655,
+        "phase_o": 27.331012439776334
+      },
+      "pattern_count": 133,
+      "pattern_hash": "7484696824fa4898855de5bd6429dd893d8425a1df9ebc95c6559a77fce69096",
+      "point_count": 75,
+      "point_hash": "b1b023324b0331f9c0c998d91abf9ca14cb74a44e07264e907b37ceaa65012b1",
+      "seed": 4,
+      "solve_seconds": 0.01101115404162556,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 77.01292106629768,
+        "beta_b": 67.65899912481211,
+        "beta_c": 73.8589282918069,
+        "beta_o": 78.22513156854211,
+        "phase_o": 2.426881607174539
+      },
+      "pattern_count": 65,
+      "pattern_hash": "aa325ea990233f65219ba111576ebd17d91496af351ffbcd854c2fd44103f0c8",
+      "point_count": 75,
+      "point_hash": "109611c0373a1408da166ac123ec149a04a49e826f75b833bc631f60a31008fb",
+      "seed": 5,
+      "solve_seconds": 0.01505157898645848,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 52.8500852302936,
+        "beta_b": 61.36989131120127,
+        "beta_c": 75.67718369455159,
+        "beta_o": 66.21739581623744,
+        "phase_o": 44.435024558391
+      },
+      "pattern_count": 84,
+      "pattern_hash": "08f826c4f2168abfc27abc9ee65c031967a7e20eafa1ef734127debcd9a01048",
+      "point_count": 75,
+      "point_hash": "dad3ab57fe40cb622381fc18e87245474ea5f267505c242f35a05f6a6854caed",
+      "seed": 6,
+      "solve_seconds": 0.01370909798424691,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 81.65511765041794,
+        "beta_b": 78.85448468054332,
+        "beta_c": 72.61674739480713,
+        "beta_o": 70.12929599721002,
+        "phase_o": 13.507482821005144
+      },
+      "pattern_count": 105,
+      "pattern_hash": "db2a67ae142f87179d54cb947f3d3a32bc11fc9446b041ae2147a968956f2fc8",
+      "point_count": 75,
+      "point_hash": "7fac732a641cfddb281c70e27fbd06d4268b5710cb053383f550c8a513835142",
+      "seed": 7,
+      "solve_seconds": 0.016700458945706487,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.999999999999996,
+      "optimum": 12.999999999999996,
+      "parameters_degrees": {
+        "beta_a": 86.33839585357214,
+        "beta_b": 59.20456605487722,
+        "beta_c": 84.16525318431059,
+        "beta_o": 56.713752447250236,
+        "phase_o": 39.145343026329726
+      },
+      "pattern_count": 104,
+      "pattern_hash": "78d7dd70f2ecd9a2d70b928cdbe525d8a0f8298ffdbaebc36cb7910c2e701633",
+      "point_count": 75,
+      "point_hash": "4c69974fc042e1813fc34942ae00b518cde31951fd4d43f897f2b8f26a2a7175",
+      "seed": 8,
+      "solve_seconds": 0.03450787300243974,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 49.91449487255288,
+        "beta_b": 71.43537045221717,
+        "beta_c": 83.93944869986366,
+        "beta_o": 81.16121417865381,
+        "phase_o": 32.22335833216044
+      },
+      "pattern_count": 108,
+      "pattern_hash": "46bbca0189b3365455bf7b1bdca7519ee061e9c65cdf6cdbca0fff25c3fe684e",
+      "point_count": 75,
+      "point_hash": "75e2b59575faecb6f094a4a27f7ca2e8b37cf0a774c73ed3bf0ff5c53e349ad9",
+      "seed": 9,
+      "solve_seconds": 0.019428231054916978,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 45.79945412411564,
+        "beta_b": 81.12313006680482,
+        "beta_c": 71.06028352318141,
+        "beta_o": 85.0200769333039,
+        "phase_o": 23.07620773964542
+      },
+      "pattern_count": 87,
+      "pattern_hash": "2e36abddd6dcb15e7cfb8572d72032915a9033fb8662ac44da5e723641f3ebe9",
+      "point_count": 75,
+      "point_hash": "856aa33876bd588d6f438cdae2966eae3f8ff427ebdac933e9c1d8c1421ad417",
+      "seed": 10,
+      "solve_seconds": 0.011634013033472002,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 60.96244884688598,
+        "beta_b": 71.36442937780437,
+        "beta_c": 68.58812467162487,
+        "beta_o": 47.785659124613986,
+        "phase_o": 6.656673805985517
+      },
+      "pattern_count": 86,
+      "pattern_hash": "a944e1d9ea0dd80c1d3259a3e445dfe86d4c7868420e1a543647549957281075",
+      "point_count": 75,
+      "point_hash": "f6290fcece288793d1338066b8a6acf6c1dae29dbc2c86633448f593a075b2bd",
+      "seed": 11,
+      "solve_seconds": 0.027489683008752763,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.999999999999991,
+      "optimum": 12.999999999999991,
+      "parameters_degrees": {
+        "beta_a": 84.23115302869007,
+        "beta_b": 53.64077653520974,
+        "beta_c": 71.67547391357121,
+        "beta_o": 53.287100614880075,
+        "phase_o": 15.745015826818088
+      },
+      "pattern_count": 81,
+      "pattern_hash": "19b9c4b0686906040d5696141fe4c0060fcece1de595c041144b484d043f3638",
+      "point_count": 75,
+      "point_hash": "7cac130a81e5d7640052bba28f5a573c47de86f973bd8414a35dda3ec978a622",
+      "seed": 12,
+      "solve_seconds": 0.019104246981441975,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 79.47573077646706,
+        "beta_b": 80.3740061477267,
+        "beta_c": 73.35965040903777,
+        "beta_o": 80.91589141574639,
+        "phase_o": 3.4739755973289634
+      },
+      "pattern_count": 66,
+      "pattern_hash": "f70a36e87247ecf1115029698631ee40fd659aef945a88ede45396ca44ab6945",
+      "point_count": 75,
+      "point_hash": "017220ea000d4dac7cb8bd9de0a1c6896ea1a007272726a98a8bbf43a33ace77",
+      "seed": 13,
+      "solve_seconds": 0.01897009403910488,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 53.76922667538135,
+        "beta_b": 75.71779014002836,
+        "beta_c": 85.63243512637818,
+        "beta_o": 79.39424935001001,
+        "phase_o": 28.85928663546741
+      },
+      "pattern_count": 107,
+      "pattern_hash": "7293f730df5946b2d2abb4ed5def51b72df545e9a7817094e52001ba771ee6e0",
+      "point_count": 75,
+      "point_hash": "26e26febcdbaf7f0ee8415e121b6777def23ab5833c5889a804d1029b1861e57",
+      "seed": 14,
+      "solve_seconds": 0.014916263055056334,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 77.42248978947498,
+        "beta_b": 60.30949058509284,
+        "beta_c": 68.91918260165359,
+        "beta_o": 73.17345155843185,
+        "phase_o": 25.721876566517896
+      },
+      "pattern_count": 53,
+      "pattern_hash": "d1b12fe78989f72bea7227331520ddc129a311c87c358be251f3ffb0d3c87b28",
+      "point_count": 75,
+      "point_hash": "6e2c5fe330da3b6cf6d0064b46368799b70042c288963834f022e52b11abb854",
+      "seed": 15,
+      "solve_seconds": 0.007153796032071114,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 57.398695565489646,
+        "beta_b": 49.545174494845554,
+        "beta_c": 75.13563078393793,
+        "beta_o": 67.51125774957143,
+        "phase_o": 27.967906727130572
+      },
+      "pattern_count": 87,
+      "pattern_hash": "d8230fbfbed93c8fd37afcc220461a0a6566db82d3df768bf8ff8254c6282185",
+      "point_count": 75,
+      "point_hash": "1b530f09d5b6b0e8c93947ab57bc0fcd068fafde757c2169a3e4f619b7f9313a",
+      "seed": 16,
+      "solve_seconds": 0.021044919034466147,
+      "status": 0
+    },
+    {
+      "dual_bound": 11.999999999999998,
+      "optimum": 11.999999999999998,
+      "parameters_degrees": {
+        "beta_a": 43.37060074079356,
+        "beta_b": 69.48301553672476,
+        "beta_c": 75.54563880411757,
+        "beta_o": 80.02836567590558,
+        "phase_o": 9.672388360279578
+      },
+      "pattern_count": 101,
+      "pattern_hash": "93697568deb6ba40820a5cc572a26343010d5cce6b9e2e61df016662b02a0776",
+      "point_count": 75,
+      "point_hash": "2203f9cd4f13864dbde371212f3cbcd71d66575dac095fbe84ed43de93ba94b7",
+      "seed": 17,
+      "solve_seconds": 0.01164734794292599,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 72.30556332298724,
+        "beta_b": 57.575403105548155,
+        "beta_c": 69.69586081896138,
+        "beta_o": 59.96875961479078,
+        "phase_o": 43.639709368178686
+      },
+      "pattern_count": 53,
+      "pattern_hash": "9488bba61a1ae2937acdf057bc19a2997b7a976481d81c98e2a7e969aebe1962",
+      "point_count": 75,
+      "point_hash": "68903c3ef2784c94dfc1b8528fd3ad6dd0124c567575a00c745a08fbfe5d1f56",
+      "seed": 18,
+      "solve_seconds": 0.006794685963541269,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 83.14520593046859,
+        "beta_b": 57.27640947962613,
+        "beta_c": 69.2309963845118,
+        "beta_o": 60.91704580781674,
+        "phase_o": 13.974455624090037
+      },
+      "pattern_count": 67,
+      "pattern_hash": "87cd224b33037abc8ce491e0b849861800716fc99c0f0c2b9e6428d1b020c068",
+      "point_count": 75,
+      "point_hash": "9f867a953eb0365b047b086c335b3246ffe2656bba131d70dcd3f51326ff1493",
+      "seed": 19,
+      "solve_seconds": 0.006555192987434566,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 58.97962890975299,
+        "beta_b": 50.733946780787,
+        "beta_c": 78.71347121023811,
+        "beta_o": 54.60341831835717,
+        "phase_o": 18.412578394839223
+      },
+      "pattern_count": 82,
+      "pattern_hash": "d54c443c73e6098a3de783ce012fbd7875f73e52e309d348bf3940c410aaacc2",
+      "point_count": 75,
+      "point_hash": "09847bed46b98184ba6a32f7e8fa622db6331f3b4c44da60684299e6e82f183d",
+      "seed": 20,
+      "solve_seconds": 0.024399125017225742,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.000000000000002,
+      "optimum": 12.000000000000002,
+      "parameters_degrees": {
+        "beta_a": 66.50404553769033,
+        "beta_b": 76.02145118756228,
+        "beta_c": 69.82650639490528,
+        "beta_o": 77.1502914967862,
+        "phase_o": 28.382148714325695
+      },
+      "pattern_count": 75,
+      "pattern_hash": "eade6ee3d62fc388d72720784a4fafb38e1e296939b236e36d5a228492ee3b6a",
+      "point_count": 75,
+      "point_hash": "d9d9b84e4fe84486aaaddac5b07204081b5ff6a5e74fe7488472c70730f84ce7",
+      "seed": 21,
+      "solve_seconds": 0.030768007040023804,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 45.36335972750431,
+        "beta_b": 49.30801005023499,
+        "beta_c": 81.39042959581886,
+        "beta_o": 58.48561119444343,
+        "phase_o": 20.670167013477606
+      },
+      "pattern_count": 60,
+      "pattern_hash": "5a9c121664ba217fc30ec8f38a3be7c2489a6ba6b99ad2add9f5a314438dd5e1",
+      "point_count": 75,
+      "point_hash": "51ea4fdf72ffcb1de3aeaa2d39d5ab66d58738cfb2b26bb639c11703129792f8",
+      "seed": 22,
+      "solve_seconds": 0.011418776004575193,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 68.35582748566799,
+        "beta_b": 51.03170164565836,
+        "beta_c": 70.33101502769225,
+        "beta_o": 73.2269886295814,
+        "phase_o": 29.400548460056434
+      },
+      "pattern_count": 68,
+      "pattern_hash": "f43f1dc4c6202e9c5fdb7b7a8c988f3e6261db410b509dc041dfa600654a3517",
+      "point_count": 75,
+      "point_hash": "e30da5f2fc7340cebbb91b7e115041843311a488b6d2d7ac43c458b6b7dbdfa3",
+      "seed": 23,
+      "solve_seconds": 0.011103659984655678,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 56.06922041323548,
+        "beta_b": 70.21372623106927,
+        "beta_c": 78.38119522903804,
+        "beta_o": 56.862097650119196,
+        "phase_o": 25.389562834361286
+      },
+      "pattern_count": 98,
+      "pattern_hash": "73b31d2d3b225a28f1403d772532209d0ac21d937eac6a4d138fb2b023670889",
+      "point_count": 75,
+      "point_hash": "16af50b54cd814cb9ecb13c859c68c5335d5377cc83e7b51e7e49cb3ced2cd24",
+      "seed": 24,
+      "solve_seconds": 0.01617235003504902,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 35.016225828892196,
+        "beta_b": 54.81373397190113,
+        "beta_c": 75.5446005882984,
+        "beta_o": 49.23245549544035,
+        "phase_o": 0.091179360643599
+      },
+      "pattern_count": 86,
+      "pattern_hash": "92dc5e2765b22e001c0cb53c55556cb38057233c61cf9ee70d5ca242a6b75e36",
+      "point_count": 75,
+      "point_hash": "3bc1ae99fdf582cd763a71dd897a576f11cfa895cdbc737dc68af76cf8282e1f",
+      "seed": 25,
+      "solve_seconds": 0.01055348792579025,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 47.18877524529166,
+        "beta_b": 48.40713360227002,
+        "beta_c": 82.61359317958333,
+        "beta_o": 64.1219512922207,
+        "phase_o": 36.59018406162481
+      },
+      "pattern_count": 59,
+      "pattern_hash": "3d5d5f15a48b6859e15c0af8b18f549fb59d563bcd22ebcb58c81d447f9f3b30",
+      "point_count": 75,
+      "point_hash": "7d4b7ee2c293c1ab6fb84eecde968a069682caad8d994e3922474ec4c3d06930",
+      "seed": 26,
+      "solve_seconds": 0.006326209986582398,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 51.31834215556644,
+        "beta_b": 50.711475251049976,
+        "beta_c": 74.63362619308961,
+        "beta_o": 73.39812974145535,
+        "phase_o": 41.904533941903516
+      },
+      "pattern_count": 84,
+      "pattern_hash": "a59b227169b30f1bd68f4fda73ccb53f1f87f202afe37d4f4fe672070ba9d47b",
+      "point_count": 75,
+      "point_hash": "5995919add3ac9df97c22a4699efd44b2db69bc54c18b194e6e97ffeed549761",
+      "seed": 27,
+      "solve_seconds": 0.015012164018116891,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 81.0144336119969,
+        "beta_b": 78.42546664197532,
+        "beta_c": 68.66007131810468,
+        "beta_o": 80.3325271191971,
+        "phase_o": 2.2589877297720524
+      },
+      "pattern_count": 91,
+      "pattern_hash": "a7becd4cdc0cd4789e9818df411b0f168172ac3e5b5424cbced4cd6a494bd4de",
+      "point_count": 75,
+      "point_hash": "687e49946080ed79751481879a5503c6912c6f029dd9a60247168b06834b4e89",
+      "seed": 28,
+      "solve_seconds": 0.013401057105511427,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.000000000000034,
+      "optimum": 12.000000000000034,
+      "parameters_degrees": {
+        "beta_a": 61.32875952571536,
+        "beta_b": 67.8270632740776,
+        "beta_c": 73.43666588571283,
+        "beta_o": 44.2521136659331,
+        "phase_o": 5.814974018332533
+      },
+      "pattern_count": 89,
+      "pattern_hash": "68a026fbdc0d7569e066c6e8c0216bf2ec0a77ea95a118369b171983dc6a4a86",
+      "point_count": 75,
+      "point_hash": "66759f09cb59ab94e0363b18c0683c25eacec52e89730c647e3f4036e5a2a8ac",
+      "seed": 29,
+      "solve_seconds": 0.012508115964010358,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 57.31356393062219,
+        "beta_b": 49.46773971179156,
+        "beta_c": 80.14835651757156,
+        "beta_o": 52.610946216563974,
+        "phase_o": 35.22144060021098
+      },
+      "pattern_count": 83,
+      "pattern_hash": "d62ed8e364468d0a755e5acddc723fe2d88d5890d78f2028c2ffbf5b4a9be2b6",
+      "point_count": 75,
+      "point_hash": "eef1a48134c300c3c5a37c5df4695967dbd8539c87d9ee5f7f6302986737fd13",
+      "seed": 30,
+      "solve_seconds": 0.009473345009610057,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 38.51926964280492,
+        "beta_b": 74.42742500631566,
+        "beta_c": 77.68716647257435,
+        "beta_o": 82.64273149116872,
+        "phase_o": 30.48424996224661
+      },
+      "pattern_count": 98,
+      "pattern_hash": "3a61afbde204bc5adfcc4259cb070dedce2ae7f7e174dae80c46baff4beb3341",
+      "point_count": 75,
+      "point_hash": "4c0716dbf0fcbbcc3fde79af02f97c06588be5fa94ae6c143720ea50cbdd0c64",
+      "seed": 31,
+      "solve_seconds": 0.012113720993511379,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 64.75593376454836,
+        "beta_b": 61.71682882034321,
+        "beta_c": 74.62017118739942,
+        "beta_o": 49.21092736686456,
+        "phase_o": 30.897624967484543
+      },
+      "pattern_count": 79,
+      "pattern_hash": "836b106eee9dad4b25b5ef1b031641eeeaf4a2eeeb0623e6a4c8cb02cd2905f6",
+      "point_count": 75,
+      "point_hash": "46016e516608c11b34d51d9d673a939295554d1fffbfc204b56bc63d888020b3",
+      "seed": 32,
+      "solve_seconds": 0.014416728052310646,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 64.56154198007694,
+        "beta_b": 84.54846232331525,
+        "beta_c": 73.21211584672544,
+        "beta_o": 61.963900663320025,
+        "phase_o": 26.495157174968178
+      },
+      "pattern_count": 109,
+      "pattern_hash": "1a603c0245aa2daa6329031add42142dd6edeaaa861c2541220c6631d10e3557",
+      "point_count": 75,
+      "point_hash": "eb8392599754587ecdb3dc693867905c356b6449d6c9980f78fe578da6acaef5",
+      "seed": 33,
+      "solve_seconds": 0.035201715072616935,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 80.35319954206821,
+        "beta_b": 55.93792266698981,
+        "beta_c": 81.34675660616455,
+        "beta_o": 42.18127095718697,
+        "phase_o": 21.784157233648408
+      },
+      "pattern_count": 77,
+      "pattern_hash": "eb91c924b5035961531ad401d6fa72652aded5f88082603ec40e5feef5275d7c",
+      "point_count": 75,
+      "point_hash": "491dbbfa152e15439a3cbf467b302c01f7f8f6478b54ae3f1d2933210b573283",
+      "seed": 34,
+      "solve_seconds": 0.011572185903787613,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 58.84176891737435,
+        "beta_b": 85.70529458654195,
+        "beta_c": 87.4099267628113,
+        "beta_o": 57.20773014976761,
+        "phase_o": 4.355339115959302
+      },
+      "pattern_count": 100,
+      "pattern_hash": "897e8460893c7cc1ba0b3f0474d5782f360e21499c23b3d5c068bfa73e6041ae",
+      "point_count": 75,
+      "point_hash": "c7206ac0d2ffcaa4ca453db4c5a0b891e05da2e1737e389e3feefb07ed1ff919",
+      "seed": 35,
+      "solve_seconds": 0.031865232973359525,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 55.708311558254756,
+        "beta_b": 83.93479335350474,
+        "beta_c": 76.26941315405067,
+        "beta_o": 50.128489105087624,
+        "phase_o": 30.735208036258722
+      },
+      "pattern_count": 114,
+      "pattern_hash": "b674360ef795527a455a91b8c2486d1d4e4eb36c8cd83cc2277073660a9d094d",
+      "point_count": 75,
+      "point_hash": "8e5fa279e906c167d9750dc0ad257690a3f28cdfac6cad74e46363d143593e6e",
+      "seed": 36,
+      "solve_seconds": 0.017476747976616025,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 69.40677348172865,
+        "beta_b": 48.466709157976965,
+        "beta_c": 82.40743376574923,
+        "beta_o": 73.68688642261063,
+        "phase_o": 14.353299635140162
+      },
+      "pattern_count": 69,
+      "pattern_hash": "ab8ce6070d8bb54d1c398848299fa70bbe8df1838cc6daec4099b67809bc1b96",
+      "point_count": 75,
+      "point_hash": "dd46796a8a6954bf47bbee2f27eb3915032bef42d736284a9612094c00e87137",
+      "seed": 37,
+      "solve_seconds": 0.017552100936882198,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 47.986264671384035,
+        "beta_b": 76.47639015567734,
+        "beta_c": 81.00958712836814,
+        "beta_o": 63.859247017704035,
+        "phase_o": 41.965728390389636
+      },
+      "pattern_count": 99,
+      "pattern_hash": "dc8ca83a40a71e78e795275a52723c3ddbab72a99ee8795150a84437c96024a0",
+      "point_count": 75,
+      "point_hash": "4baa0526b4e0b21952c9b7ef1f7fa6334fbf5032b3a7b5982b7dd1370a3ee5e6",
+      "seed": 38,
+      "solve_seconds": 0.012312657083384693,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 63.0454411227374,
+        "beta_b": 51.3425906840774,
+        "beta_c": 74.280924652644,
+        "beta_o": 64.57703807181336,
+        "phase_o": 26.063310546078
+      },
+      "pattern_count": 77,
+      "pattern_hash": "0accfc148e34efd2bc25bbbc815125f8e463c5f083ee1de57be9cbbf2799e55f",
+      "point_count": 75,
+      "point_hash": "62a1a264ca3e79bee6b03956e6a1c17750cae230988bde5d5c0012d597c92458",
+      "seed": 39,
+      "solve_seconds": 0.04534208192490041,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 71.05757775369779,
+        "beta_b": 86.00260374108706,
+        "beta_c": 69.22286723091787,
+        "beta_o": 74.84543228691228,
+        "phase_o": 31.0734436826544
+      },
+      "pattern_count": 76,
+      "pattern_hash": "aab3b5727d15d9387ad627cab182bb638079b7f2416ac46d8f71a9eead2a3952",
+      "point_count": 75,
+      "point_hash": "dc584f32ad440d11959e6c5c735ce612c0be29f0fc95bebc10347d12cf6e2663",
+      "seed": 40,
+      "solve_seconds": 0.012641700101085007,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 74.93246871305116,
+        "beta_b": 50.91674211189269,
+        "beta_c": 84.95325576158027,
+        "beta_o": 84.9367996332902,
+        "phase_o": 38.2082433044038
+      },
+      "pattern_count": 75,
+      "pattern_hash": "950b498a01e5678e04e5ad70648cbbc6fdea97ad2371f556b40d7bf6bb3cb801",
+      "point_count": 75,
+      "point_hash": "129cbbde8ceaf796b97a3baa9de85ea1bdead2fa4b9a0e4ce8c6168a10ab112f",
+      "seed": 41,
+      "solve_seconds": 0.01327569002751261,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 57.82167886710672,
+        "beta_b": 82.41971055618944,
+        "beta_c": 82.29604459571696,
+        "beta_o": 76.82802218501834,
+        "phase_o": 4.23798065494423
+      },
+      "pattern_count": 124,
+      "pattern_hash": "174759d301ef9ae7ffe124827727149e8c76f90d1615a90d52f1b3222dbd6aa8",
+      "point_count": 75,
+      "point_hash": "d932c3995ab08b70688950b9b10b2606e93f2e4e7091fe039ac27347d00ab032",
+      "seed": 42,
+      "solve_seconds": 0.03803766204509884,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 37.276316829227824,
+        "beta_b": 46.36127223559132,
+        "beta_c": 85.20385794147612,
+        "beta_o": 71.35346682154098,
+        "phase_o": 26.42143714146263
+      },
+      "pattern_count": 76,
+      "pattern_hash": "b60544ffa8fcd70ef408841169e37ab13152af122747124cb98521650837b22c",
+      "point_count": 75,
+      "point_hash": "010e306cca8f8050e340538717c4f1fa8e3be095b356765086a58bd43460b900",
+      "seed": 43,
+      "solve_seconds": 0.014580157003365457,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 48.42187988818419,
+        "beta_b": 62.948141296308634,
+        "beta_c": 87.86827093696066,
+        "beta_o": 47.51544793532422,
+        "phase_o": 7.304270615350507
+      },
+      "pattern_count": 87,
+      "pattern_hash": "ff4a6abd4f2e93f4c450c54beca6faca6d178c47ab96149296f583116f728edc",
+      "point_count": 75,
+      "point_hash": "bbb86f300b44e2e0b698ec1935fbe033dee10991439f17a3b4a0607f1d28c874",
+      "seed": 44,
+      "solve_seconds": 0.011678567039780319,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 62.48153954885055,
+        "beta_b": 78.33696031148281,
+        "beta_c": 84.63970172369696,
+        "beta_o": 67.79087956263776,
+        "phase_o": 22.960298484032567
+      },
+      "pattern_count": 97,
+      "pattern_hash": "f42ca662841eb2f3456e4c9cbafc7a163c36171a49790369ab8af152d537f54d",
+      "point_count": 75,
+      "point_hash": "598e3466d852d07ded9804ef7b72df0c1377922d75965164bb2e4bd37427c529",
+      "seed": 45,
+      "solve_seconds": 0.031059868982993066,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 39.01579324701065,
+        "beta_b": 57.22049950450142,
+        "beta_c": 80.74793488604573,
+        "beta_o": 82.75219245106405,
+        "phase_o": 42.03127837302139
+      },
+      "pattern_count": 84,
+      "pattern_hash": "e8b8b4b3411140eb2147e7bef1404702bbcd5046aa2a082bea5ea9a6eb8ceed9",
+      "point_count": 75,
+      "point_hash": "481db0675a168edfadaca9524d103a931e5f37889580142e912fe47bbbba2925",
+      "seed": 46,
+      "solve_seconds": 0.010567074059508741,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 74.1907784902196,
+        "beta_b": 65.50276314386778,
+        "beta_c": 70.12636310778178,
+        "beta_o": 75.38108975891522,
+        "phase_o": 43.50833324215802
+      },
+      "pattern_count": 54,
+      "pattern_hash": "4fd7ef501d4f499c3448bafcbc27018e75ee25480cf7af3682b03b8ed6c07fb4",
+      "point_count": 75,
+      "point_hash": "7616875c494ed732d608dcc8e7ae6d1cb59d2cd2386b54de43aa0e4b078f1c5a",
+      "seed": 47,
+      "solve_seconds": 0.009670537896454334,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 65.98022148152567,
+        "beta_b": 67.59342343732243,
+        "beta_c": 82.23708403215176,
+        "beta_o": 59.44649425285175,
+        "phase_o": 29.36235373890255
+      },
+      "pattern_count": 73,
+      "pattern_hash": "9069e15bbd632bb37395aa6cc664daa9a37cb5c6fe7bdc8d0e15493ebefea302",
+      "point_count": 75,
+      "point_hash": "ef8825b9515a1825fdd014993714103d26276f066b0cd9702b6220b3e671fc52",
+      "seed": 48,
+      "solve_seconds": 0.015325337997637689,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 65.84729752882608,
+        "beta_b": 62.35385911446004,
+        "beta_c": 80.78583535637057,
+        "beta_o": 58.32843865242613,
+        "phase_o": 29.51166042256984
+      },
+      "pattern_count": 73,
+      "pattern_hash": "2a496a8b3c6863fb00a93873b5ed86939a6534886b845fe7530944de70044dde",
+      "point_count": 75,
+      "point_hash": "5a73de48424beb81facf107bb609d6db15108991b8eadd280fd2a674523e9dd6",
+      "seed": 49,
+      "solve_seconds": 0.023129853885620832,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 78.3508053983463,
+        "beta_b": 69.05989178792167,
+        "beta_c": 87.95570647087233,
+        "beta_o": 77.43402113489806,
+        "phase_o": 10.657510106056192
+      },
+      "pattern_count": 70,
+      "pattern_hash": "3d2d461246d384200d867c2ce2514b80e247732ca2e452a4d365792d97a26a53",
+      "point_count": 75,
+      "point_hash": "33e0928e4ada12ec263c2dc9e5c98a81182f47ac9296a932dd0e4806a0c39a9a",
+      "seed": 50,
+      "solve_seconds": 0.026723654009401798,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 50.971194761014495,
+        "beta_b": 56.4609852798174,
+        "beta_c": 72.56367976229953,
+        "beta_o": 84.40985383216875,
+        "phase_o": 35.3791899308644
+      },
+      "pattern_count": 84,
+      "pattern_hash": "e20dd90e03374daa469403caf932daa50d1ceb067aaa2f30e842bfe82fad48ec",
+      "point_count": 75,
+      "point_hash": "31418d55a3413dce1ffd4a8ae61431ade9cc33aa61c47dbe58a7466cf063aabd",
+      "seed": 51,
+      "solve_seconds": 0.009701406001113355,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 64.85976737303518,
+        "beta_b": 67.84037390516693,
+        "beta_c": 68.13098560081465,
+        "beta_o": 69.70933296610949,
+        "phase_o": 24.76315766586569
+      },
+      "pattern_count": 74,
+      "pattern_hash": "3eda07ceec9c32e5f99b28ac190efae52614e6c029b03be07ace8ef2c5a757e9",
+      "point_count": 75,
+      "point_hash": "ceec6d4611c5ed80e7e106dd710ae6481487301cda2b5e26d4590c2ae41dbf45",
+      "seed": 52,
+      "solve_seconds": 0.020170915056951344,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 72.38335399592044,
+        "beta_b": 59.73846921949279,
+        "beta_c": 87.12831760421055,
+        "beta_o": 42.50071475539199,
+        "phase_o": 4.717114842839719
+      },
+      "pattern_count": 71,
+      "pattern_hash": "68677d663c2c7933c6a904532efa0daec35421add73b1b9f38e7ca68abcec6b4",
+      "point_count": 75,
+      "point_hash": "e327b86d699590e6903fe4b6542d18aadf09694df340fc1287629c8f4f951c58",
+      "seed": 53,
+      "solve_seconds": 0.017034019925631583,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 61.96615848591359,
+        "beta_b": 48.92512079369562,
+        "beta_c": 79.83751405018764,
+        "beta_o": 52.01031951023528,
+        "phase_o": 3.8754174681798066
+      },
+      "pattern_count": 85,
+      "pattern_hash": "3ced5670ba989f8e4deeaff01c70158f29073c4ba5149b03b526d00b804dbf47",
+      "point_count": 75,
+      "point_hash": "c09d5d714894c436a159fe32b813aa0fda676346b850fdd166ea4aa5ea79f256",
+      "seed": 54,
+      "solve_seconds": 0.014278777060098946,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 80.27357180924975,
+        "beta_b": 54.889561650232785,
+        "beta_c": 72.71699158754508,
+        "beta_o": 79.45134825547277,
+        "phase_o": 22.173439466045323
+      },
+      "pattern_count": 55,
+      "pattern_hash": "af5150e4fcd9b19adccd9572ab955345ee354f804df995186a30e2aade703b19",
+      "point_count": 75,
+      "point_hash": "8f9a726aa09dd62904482f84b6beb5708daac073ff57a5608fa7c55f4e32afcb",
+      "seed": 55,
+      "solve_seconds": 0.02086114208213985,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 35.87894635288944,
+        "beta_b": 87.67444591407886,
+        "beta_c": 82.8543863485379,
+        "beta_o": 74.67567224835929,
+        "phase_o": 24.48954715542226
+      },
+      "pattern_count": 107,
+      "pattern_hash": "be949ce4900e3f15906b04e6a20280550ef0089340e7860ea6da79a45ac32e39",
+      "point_count": 75,
+      "point_hash": "0e2b39fb996bf038853219cae41246d12d775b975345c441fbc4d926b32e99e5",
+      "seed": 56,
+      "solve_seconds": 0.031582377036102116,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 59.352222347313564,
+        "beta_b": 81.67304779933076,
+        "beta_c": 74.97655606110318,
+        "beta_o": 72.78750164199937,
+        "phase_o": 17.721971379823408
+      },
+      "pattern_count": 122,
+      "pattern_hash": "5e44081ed8c0438f5d501eac987dc30bc6ab54f37c3861f28b290e9696df97b6",
+      "point_count": 75,
+      "point_hash": "efcdc11e697294b455eaef48afe7386a747fa927e0e3d36013a25bd6b58f6989",
+      "seed": 57,
+      "solve_seconds": 0.029756162082776427,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 80.7513476800001,
+        "beta_b": 55.95293244276011,
+        "beta_c": 72.27261954511486,
+        "beta_o": 55.90553102548101,
+        "phase_o": 38.061581993865914
+      },
+      "pattern_count": 56,
+      "pattern_hash": "c80af5d819425dc96c7360010940e1cc0e756862dae4d2f29d9ed6f82a5a49a0",
+      "point_count": 75,
+      "point_hash": "f0bc9db294e60b50cd221992b4048a49b08303305959cf1945334ee042be1180",
+      "seed": 58,
+      "solve_seconds": 0.009550761082209647,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 77.95544074633943,
+        "beta_b": 50.52858255063175,
+        "beta_c": 75.73730697785156,
+        "beta_o": 68.4486221399864,
+        "phase_o": 8.381805756448218
+      },
+      "pattern_count": 64,
+      "pattern_hash": "9414694aea673fe6ff89d51f8836ad299daa70cb22993d580c34d33c800c86c3",
+      "point_count": 75,
+      "point_hash": "5100f06b1e30b4a4110f7b8f5b1f391b1dfc420e233566345ea089439fee9d90",
+      "seed": 59,
+      "solve_seconds": 0.007363172015175223,
+      "status": 0
+    },
+    {
+      "dual_bound": 11.999999999999998,
+      "optimum": 11.999999999999998,
+      "parameters_degrees": {
+        "beta_a": 36.41161237854024,
+        "beta_b": 47.85299816001561,
+        "beta_c": 88.3050761866817,
+        "beta_o": 56.59277157155744,
+        "phase_o": 38.84804815579104
+      },
+      "pattern_count": 75,
+      "pattern_hash": "2a63a39bc15d2d7b7f37dc85093c7c7f44a28b05a6cd7287ce69c54153b7b4b8",
+      "point_count": 75,
+      "point_hash": "896cb8511111e1c3f0548ce6f04038cacdc9d82c586dd6897ccec8f4c5db973d",
+      "seed": 60,
+      "solve_seconds": 0.012014642939902842,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 75.14065214599786,
+        "beta_b": 74.35915345052429,
+        "beta_c": 82.53767414908349,
+        "beta_o": 58.846842729493865,
+        "phase_o": 19.518875692226775
+      },
+      "pattern_count": 69,
+      "pattern_hash": "ad2414adba2dd9cadccc34c62d6a69c1ff38dd66f51af421962155e7f0f0c4d0",
+      "point_count": 75,
+      "point_hash": "41bf71309b41497a60ca88843600173d149243478fae18c4deb366748c3ac0e9",
+      "seed": 61,
+      "solve_seconds": 0.011613605078309774,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.999999999999938,
+      "optimum": 12.999999999999938,
+      "parameters_degrees": {
+        "beta_a": 73.88421180878932,
+        "beta_b": 79.0699875265328,
+        "beta_c": 73.90103425020992,
+        "beta_o": 69.41940750860242,
+        "phase_o": 31.19563856285091
+      },
+      "pattern_count": 88,
+      "pattern_hash": "75e273fabcd1464cdebc685c671eb0c8f183fc4232c9f88e0c25057d7949897e",
+      "point_count": 75,
+      "point_hash": "21957960aa4139882393969ee00544362d568cb67707bf633043115c6af81110",
+      "seed": 62,
+      "solve_seconds": 0.07493141898885369,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 86.59746118070044,
+        "beta_b": 53.957557182759174,
+        "beta_c": 78.35839605056366,
+        "beta_o": 67.20357173530054,
+        "phase_o": 9.0170598869539
+      },
+      "pattern_count": 96,
+      "pattern_hash": "15ca61f1b1ed5fc0c7134f1cf127ddcab5d753f6ee5931e0838edf592aabeee6",
+      "point_count": 75,
+      "point_hash": "c0f96f247d1df8b6a679b11eb58edb536a5068afe6f94e395edcdf8c9bc836e7",
+      "seed": 63,
+      "solve_seconds": 0.015040178084746003,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.000000000000004,
+      "optimum": 12.000000000000004,
+      "parameters_degrees": {
+        "beta_a": 62.213660715318625,
+        "beta_b": 48.32557030944889,
+        "beta_c": 74.53045495220105,
+        "beta_o": 84.45720537331816,
+        "phase_o": 38.62878428050892
+      },
+      "pattern_count": 84,
+      "pattern_hash": "dbef9bdf28914248e96aa2a079ea3985e861ea97e386327bd2e13ee6b6ac242f",
+      "point_count": 75,
+      "point_hash": "92adc32f829165b56692081d38e76cb0f295adedf0c10fbdb1a5ba164861e1cb",
+      "seed": 64,
+      "solve_seconds": 0.01684008410666138,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 61.9475532320585,
+        "beta_b": 61.618918224965654,
+        "beta_c": 72.68790972793552,
+        "beta_o": 44.1326168458562,
+        "phase_o": 42.37754369631745
+      },
+      "pattern_count": 85,
+      "pattern_hash": "9a88cb6b0c603848aeef95dc8d540b26fb7957abca71b7acedcb0d099573b1ac",
+      "point_count": 75,
+      "point_hash": "1d4e78136332e9bce612272655ddadcda93024d0cb7d18679777c1ade6ffd9f6",
+      "seed": 65,
+      "solve_seconds": 0.013374395086430013,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 71.02654281846499,
+        "beta_b": 48.636195377859146,
+        "beta_c": 80.79720301134037,
+        "beta_o": 83.56802450711692,
+        "phase_o": 21.263359359488533
+      },
+      "pattern_count": 66,
+      "pattern_hash": "4feaf9a7d73b6d1b3e35affa278a722e0959dbdf54bf528c29365639971d08d9",
+      "point_count": 75,
+      "point_hash": "c6d7d9a588c5f35d297bfe60c01b5d2116db615277bb18810c7c43208b0a0ed5",
+      "seed": 66,
+      "solve_seconds": 0.007818683981895447,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 41.60079171440394,
+        "beta_b": 67.60135653990322,
+        "beta_c": 74.09347374693809,
+        "beta_o": 60.64491749560137,
+        "phase_o": 26.9116628409381
+      },
+      "pattern_count": 100,
+      "pattern_hash": "ea2bf065c72efb7493988a36c257cbb63dd214f451cafee14521b1c8ed94ae7e",
+      "point_count": 75,
+      "point_hash": "dfe588cb097a5e25dee4126f6440c1949cce1473055a65c906c89b57d1418c2d",
+      "seed": 67,
+      "solve_seconds": 0.010797369992360473,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 79.11296627676046,
+        "beta_b": 74.4614576953652,
+        "beta_c": 80.83793587244811,
+        "beta_o": 63.79650261809549,
+        "phase_o": 43.91179145543341
+      },
+      "pattern_count": 71,
+      "pattern_hash": "c2c1a9e161992abf1bf3e65a360cfa7fc0236cd65e0b975b3029ae32b6ddce15",
+      "point_count": 75,
+      "point_hash": "8b1e2c53f8e119be033ed5c905efb6328a3333d9f37f568f081df60d91241a91",
+      "seed": 68,
+      "solve_seconds": 0.014209245098754764,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 62.396305862611165,
+        "beta_b": 82.69335132783955,
+        "beta_c": 83.06258846261908,
+        "beta_o": 68.11675688470537,
+        "phase_o": 21.446317803322028
+      },
+      "pattern_count": 105,
+      "pattern_hash": "fa66e9dd2cf4dfb0cf412f1b6a2a6e894622daa1812f612e98cf3f3d94901c42",
+      "point_count": 75,
+      "point_hash": "b2118c504c4dad72171c8632dc5f48f7edd96062d9dc216d27eb43a88fd54ed0",
+      "seed": 69,
+      "solve_seconds": 0.012931278091855347,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 72.63790424742423,
+        "beta_b": 59.354141028577075,
+        "beta_c": 87.78709110608946,
+        "beta_o": 59.133068034681436,
+        "phase_o": 33.31559852066914
+      },
+      "pattern_count": 70,
+      "pattern_hash": "ef57c86ddb8dd1b85300a4b2d9d78515b924e33e6312d6825c006b3880e12ed4",
+      "point_count": 75,
+      "point_hash": "2185b783114f42dc50092f8c9ac597b2102408a6603d8d1adecd327534010968",
+      "seed": 70,
+      "solve_seconds": 0.0065862920600920916,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 62.432019453614146,
+        "beta_b": 78.2224220262688,
+        "beta_c": 81.01260178208993,
+        "beta_o": 53.403615484678625,
+        "phase_o": 9.187759340062943
+      },
+      "pattern_count": 97,
+      "pattern_hash": "701659823a9171b40a8d2f3fe091fef2c954573d60f5ad8eaf00fc7597d75396",
+      "point_count": 75,
+      "point_hash": "cf658ea2b5a5f2943621a14d9dceaff6dd1b6583ac7b518f79f64265aabc2ae0",
+      "seed": 71,
+      "solve_seconds": 0.018240954028442502,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 35.347106379277285,
+        "beta_b": 55.4522749894978,
+        "beta_c": 70.341828664204,
+        "beta_o": 79.702653051321,
+        "phase_o": 32.201248598432535
+      },
+      "pattern_count": 83,
+      "pattern_hash": "8b87913d8f92b1033be35a82b6ae6fa6e58125df724e10194d85530e91aa0479",
+      "point_count": 75,
+      "point_hash": "8b0e2fbd1af60c3e097bf77c9512917a2a0741de86b598dfc04ca7d8a6db3f1d",
+      "seed": 72,
+      "solve_seconds": 0.03068189404439181,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 50.77511196879437,
+        "beta_b": 57.04841459176322,
+        "beta_c": 88.19572150001515,
+        "beta_o": 64.16862851796867,
+        "phase_o": 9.895106189983872
+      },
+      "pattern_count": 81,
+      "pattern_hash": "ce8a424612e0d893ebdb95773088dea694fe8b8d587ec5e8768682159c369237",
+      "point_count": 75,
+      "point_hash": "f4f06bb4fa8f4ced8e9b70642b726e62013752b3cfcf5733e09be705e630984b",
+      "seed": 73,
+      "solve_seconds": 0.02390770590864122,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 62.07748940945983,
+        "beta_b": 74.5853779969218,
+        "beta_c": 81.71857823158398,
+        "beta_o": 82.24702207975082,
+        "phase_o": 25.417714039438817
+      },
+      "pattern_count": 85,
+      "pattern_hash": "20ea467397416534682e2c480f0c3876d072380f780a1a4a81723e408acf911d",
+      "point_count": 75,
+      "point_hash": "8740d79cb80dfe3fc97d2cb9b8f7945f91fde949f541a7049b04e1bf2c562cd3",
+      "seed": 74,
+      "solve_seconds": 0.01757783896755427,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 42.96271043515754,
+        "beta_b": 74.06276945853746,
+        "beta_c": 82.02880105391671,
+        "beta_o": 51.598125668678904,
+        "phase_o": 41.99239810418416
+      },
+      "pattern_count": 105,
+      "pattern_hash": "3cbe459139708ed857574ef7e9ee7ef24d9cb4049a3edbceec34c914c382eb1e",
+      "point_count": 75,
+      "point_hash": "22c5924afc95b1255c22a3c5d0776231d01b7d24a603a768db87fc233c71fe1d",
+      "seed": 75,
+      "solve_seconds": 0.019600676954723895,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.999999999999975,
+      "optimum": 12.999999999999975,
+      "parameters_degrees": {
+        "beta_a": 86.24721192114811,
+        "beta_b": 74.84318888313305,
+        "beta_c": 82.77815288993348,
+        "beta_o": 78.2849179120873,
+        "phase_o": 3.515129691849441
+      },
+      "pattern_count": 93,
+      "pattern_hash": "c0615eaa38d9778021b718778423ad2c06827f2ff7dfe323fdfa4299357a4080",
+      "point_count": 75,
+      "point_hash": "c0f1d26f9dc4875bfabac941bc548eb81afe1d18ec72dcab2f61b6c704c1994c",
+      "seed": 76,
+      "solve_seconds": 0.07565781404264271,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 63.660941701616395,
+        "beta_b": 55.987192468997854,
+        "beta_c": 74.85629073279753,
+        "beta_o": 77.3669538844122,
+        "phase_o": 14.341058899550205
+      },
+      "pattern_count": 77,
+      "pattern_hash": "2af0bda64418f8feadf7e47ddb95bad209a149660fe7e59c38e56255f4949e73",
+      "point_count": 75,
+      "point_hash": "36c75c90fd248030ee0d86fa24f9864b49621fd56d490adc03d5c5df76f7517b",
+      "seed": 77,
+      "solve_seconds": 0.014794281916692853,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 82.58703579705411,
+        "beta_b": 67.77901037171287,
+        "beta_c": 85.1611281793615,
+        "beta_o": 60.84883895236448,
+        "phase_o": 16.75506570528922
+      },
+      "pattern_count": 81,
+      "pattern_hash": "f1575521f83f85681e7c27b59a2e9c92b606bc20a3a1d85b47096218147d9a53",
+      "point_count": 75,
+      "point_hash": "f37a7a6eb8c3a508d8968af7034c763f124e6af4df5c689558c4cb2e8d1b34c2",
+      "seed": 78,
+      "solve_seconds": 0.008675314020365477,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 38.72437555393875,
+        "beta_b": 85.19249822209412,
+        "beta_c": 68.73280449993096,
+        "beta_o": 83.38210743195847,
+        "phase_o": 3.9362305630048744
+      },
+      "pattern_count": 92,
+      "pattern_hash": "78bcad15b92bff2d47cd1034e0e24535daced9580534df41c2a432ebbc2fca85",
+      "point_count": 75,
+      "point_hash": "e8364b51cb454ec4a1a301efc61d7da8a5fff603a5b6b36bbdb7232d255d515e",
+      "seed": 79,
+      "solve_seconds": 0.011382446973584592,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 35.957777434973025,
+        "beta_b": 47.07524950319151,
+        "beta_c": 80.1914982002911,
+        "beta_o": 75.14210991045542,
+        "phase_o": 26.35711394278155
+      },
+      "pattern_count": 73,
+      "pattern_hash": "ad037d69d6d35ec0c6966cb96bf7ff08163c2497326061d524eb8c9618df5f24",
+      "point_count": 75,
+      "point_hash": "5110e14844ceeb47ca0537b513cf921f635ba0655e8d4a9451dfb156af9f7606",
+      "seed": 80,
+      "solve_seconds": 0.019276643986813724,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.000000000000009,
+      "optimum": 12.000000000000009,
+      "parameters_degrees": {
+        "beta_a": 46.00467279415554,
+        "beta_b": 84.71760472514029,
+        "beta_c": 80.51451687337736,
+        "beta_o": 61.535098099753434,
+        "phase_o": 20.004540544005632
+      },
+      "pattern_count": 94,
+      "pattern_hash": "7458cd64be295f6ab4be88b405f9d846660707528d3b66deafb77466ac1ab148",
+      "point_count": 75,
+      "point_hash": "2568d266900c01ce8f2605d85e1f4f451ef0a30d5673692a3fbb2ea7ac58b372",
+      "seed": 81,
+      "solve_seconds": 0.026989717967808247,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 79.44897334417786,
+        "beta_b": 54.8605151714454,
+        "beta_c": 88.09298096565993,
+        "beta_o": 86.89374385733691,
+        "phase_o": 18.386504121855108
+      },
+      "pattern_count": 69,
+      "pattern_hash": "425359e8fc047fac580a6c8b21e542e03c403574eb8f4a8d15acbbc5ada502e1",
+      "point_count": 75,
+      "point_hash": "b87dee063226c4770e7c9991ee26212e718f3a70842f91be252be37a758df7d8",
+      "seed": 82,
+      "solve_seconds": 0.009153158986009657,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 37.31945270316475,
+        "beta_b": 72.55100888317062,
+        "beta_c": 74.30336128877376,
+        "beta_o": 56.238644393295075,
+        "phase_o": 15.423728822118203
+      },
+      "pattern_count": 98,
+      "pattern_hash": "03cffdc5385534d9b409a571d830b40a1f50d2f20fe1ec9c5deebe17ac510d24",
+      "point_count": 75,
+      "point_hash": "d9fbf624bbfa3a62e0aaba7c20268713dd2f85dd72b57172f5f4ad6a7d312d9e",
+      "seed": 83,
+      "solve_seconds": 0.01728392392396927,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 81.81059046205542,
+        "beta_b": 77.71942504057505,
+        "beta_c": 86.12067872969635,
+        "beta_o": 74.94442075175621,
+        "phase_o": 10.235520555884014
+      },
+      "pattern_count": 87,
+      "pattern_hash": "7349b65c622f254f8abcfa8b2c4da80f4ea07e5d418094c064f01e74ca85dd81",
+      "point_count": 75,
+      "point_hash": "ad47dcca8e21d07e8a2d73386d873b2a7c0beb41f596d2b1aaec7b25b0859914",
+      "seed": 84,
+      "solve_seconds": 0.007474662968888879,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 59.53198776589066,
+        "beta_b": 65.40493601814038,
+        "beta_c": 77.800395510035,
+        "beta_o": 43.99453460449498,
+        "phase_o": 39.61171457430788
+      },
+      "pattern_count": 89,
+      "pattern_hash": "76e91cc65e3a0a26847e4bb0a02dbffc8bce25e01c05bb64fa3388fcecb0680f",
+      "point_count": 75,
+      "point_hash": "0365a3b7c5036e8a5a9f652a48925acf7c618ac98bcea9809b52f54ce89e8f91",
+      "seed": 85,
+      "solve_seconds": 0.024741112953051925,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 44.11842066365897,
+        "beta_b": 71.97014222740009,
+        "beta_c": 75.63715413729486,
+        "beta_o": 69.69580432286027,
+        "phase_o": 16.575706178984717
+      },
+      "pattern_count": 102,
+      "pattern_hash": "fe847bfa32c79f315f78d5c99d73432a157a4fd3fc4081df08b5782fb27a44b2",
+      "point_count": 75,
+      "point_hash": "2e586cde151f7ed303f275de2eec330737e9957e1d127defe460e0d8c3ba8d9e",
+      "seed": 86,
+      "solve_seconds": 0.011841616011224687,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 75.7440441132003,
+        "beta_b": 52.91285570473307,
+        "beta_c": 77.85732162307497,
+        "beta_o": 67.6840393686894,
+        "phase_o": 19.261489188747294
+      },
+      "pattern_count": 69,
+      "pattern_hash": "ee178dd11acd90d3b7e09472c168c6bd25adacd9c0bd817e22e2ad8454e94458",
+      "point_count": 75,
+      "point_hash": "82e11f9d0155882c99b78056e16ae2d4cb7eff534b1eca902fc29aa10f4b9d49",
+      "seed": 87,
+      "solve_seconds": 0.009511176031082869,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 71.56575283893018,
+        "beta_b": 75.10590848198314,
+        "beta_c": 82.1218159970343,
+        "beta_o": 51.28103894054326,
+        "phase_o": 29.80973211635285
+      },
+      "pattern_count": 68,
+      "pattern_hash": "82c3bc4b17ae10679b82913ee05f10bacf31d9e0dcb30cd6457dce44095cff61",
+      "point_count": 75,
+      "point_hash": "7ce76432dc208000c3a1d6a4348cd5c5ed370c21c4c56c8abddf033aaafe8046",
+      "seed": 88,
+      "solve_seconds": 0.015609394991770387,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 75.03681966221525,
+        "beta_b": 76.93812613596782,
+        "beta_c": 68.40305039085548,
+        "beta_o": 67.90997138145148,
+        "phase_o": 24.303191691417524
+      },
+      "pattern_count": 53,
+      "pattern_hash": "e883e87e9ba3ad94b288dde06577aee384f1d318671b3a0067892de159679364",
+      "point_count": 75,
+      "point_hash": "dafdfe7c9179279e75fa6ebad9c9f66402ac13d68ab7d88a05c62c5d5b902963",
+      "seed": 89,
+      "solve_seconds": 0.01008135499432683,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 70.45864959177906,
+        "beta_b": 67.79664887718316,
+        "beta_c": 76.57617942477715,
+        "beta_o": 58.754975092946125,
+        "phase_o": 31.334038771145188
+      },
+      "pattern_count": 68,
+      "pattern_hash": "10195662796d50965f3a3a3f9d3af66e9bf66d682956c80cc9aca6b6379e1c48",
+      "point_count": 75,
+      "point_hash": "b7b568e69cd29234250d9547e80aebaf79b805a8d70b1ab941e78a3e057a4ce0",
+      "seed": 90,
+      "solve_seconds": 0.010603953967802227,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 82.33305061014761,
+        "beta_b": 80.73054150574156,
+        "beta_c": 73.99678043013603,
+        "beta_o": 54.7387375950526,
+        "phase_o": 37.568427606640576
+      },
+      "pattern_count": 72,
+      "pattern_hash": "bce0272b41ebc87298a49ee7a93bdcbf3bdf3d779a6435a16548ea2ec98bdefd",
+      "point_count": 75,
+      "point_hash": "df7987bbeaea705ebd809a6a8b96cdd77d5ef05f697fc1cd4d5f3ba499b04aea",
+      "seed": 91,
+      "solve_seconds": 0.01816303702071309,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 38.94429670691489,
+        "beta_b": 60.563793442697424,
+        "beta_c": 74.83910614898717,
+        "beta_o": 69.0388933283293,
+        "phase_o": 1.708969469984819
+      },
+      "pattern_count": 85,
+      "pattern_hash": "37b07ca785b7685008420ae78b17bacb8820c6c75c5ab4f46264470f4696982a",
+      "point_count": 75,
+      "point_hash": "41a1a579bca05282767fb49c1fbb928b845e96376ba549c12c9f823b814ceba5",
+      "seed": 92,
+      "solve_seconds": 0.010910154087468982,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 63.24526351516058,
+        "beta_b": 65.25234363218752,
+        "beta_c": 76.91336360067311,
+        "beta_o": 86.34706693585147,
+        "phase_o": 29.842218062038622
+      },
+      "pattern_count": 79,
+      "pattern_hash": "46f47ba946bef693f4653d4edd0c116e9eb3e5d44a50ffd211bd459c0677e17d",
+      "point_count": 75,
+      "point_hash": "9b9c9793674880f34c4ff6b03998fe83249f52ee950a65025b0c41963a221b7a",
+      "seed": 93,
+      "solve_seconds": 0.021778717986308038,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 76.01203832929515,
+        "beta_b": 76.54791568828206,
+        "beta_c": 68.93844891225555,
+        "beta_o": 52.785191649804126,
+        "phase_o": 14.825561832396685
+      },
+      "pattern_count": 55,
+      "pattern_hash": "82dd7c7fb15c105e73d7b11b0133c03e26157a4f8b289db71098751e1706373d",
+      "point_count": 75,
+      "point_hash": "f5be857680ceac771b7090758a38e66518e10b664154600e19163c4590b0685e",
+      "seed": 94,
+      "solve_seconds": 0.006242351024411619,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 82.49198826099693,
+        "beta_b": 55.22490352576313,
+        "beta_c": 75.80366232074049,
+        "beta_o": 66.36554283258569,
+        "phase_o": 18.465753316271098
+      },
+      "pattern_count": 79,
+      "pattern_hash": "bf0febb3fd3a97518b15cc83538fdc0c58d2913b63a6778b905839438a6b1e1e",
+      "point_count": 75,
+      "point_hash": "cca772bf8d1d6e218965c95f682123069a2974fdb0372ae6d0cba7f69bb64453",
+      "seed": 95,
+      "solve_seconds": 0.016754942946135998,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 73.16225936876279,
+        "beta_b": 69.0767309702371,
+        "beta_c": 78.04087029911912,
+        "beta_o": 74.81260600132323,
+        "phase_o": 23.9350383790908
+      },
+      "pattern_count": 69,
+      "pattern_hash": "cfa982f23769f170f45b18943b48955658ae7f21acee0cf83026bc4f8b7d73d9",
+      "point_count": 75,
+      "point_hash": "1a160f9916be5eeb12400dd5a66b656c79e4564d4014844105cd408c1c2316f6",
+      "seed": 96,
+      "solve_seconds": 0.008080780040472746,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 57.48018470520493,
+        "beta_b": 67.83772520615534,
+        "beta_c": 88.05834838156687,
+        "beta_o": 72.34230325748253,
+        "phase_o": 8.097591024176596
+      },
+      "pattern_count": 82,
+      "pattern_hash": "9839fe9e65c43ea1bc10498df246dfc0af0ce2351fe2ec741ab40a6e585943de",
+      "point_count": 75,
+      "point_hash": "cccc99e5800f83d084b1e881d60d225de4f58e40ce3811c07a32e7a639287968",
+      "seed": 97,
+      "solve_seconds": 0.012585554039105773,
+      "status": 0
+    },
+    {
+      "dual_bound": 13.0,
+      "optimum": 13.0,
+      "parameters_degrees": {
+        "beta_a": 79.26920769788552,
+        "beta_b": 48.6045786123993,
+        "beta_c": 73.96818105288577,
+        "beta_o": 84.46449934553078,
+        "phase_o": 3.9038031105739983
+      },
+      "pattern_count": 74,
+      "pattern_hash": "ffaf17581633bc695737dde09ccb2b32e815a17ca813b3d3f6c6c5f29a763f76",
+      "point_count": 75,
+      "point_hash": "d8dcb8373294c7ab4ba732229c31cbbafbe126afe9a7cab3a3107bea964a8ca0",
+      "seed": 98,
+      "solve_seconds": 0.01590481400489807,
+      "status": 0
+    },
+    {
+      "dual_bound": 12.0,
+      "optimum": 12.0,
+      "parameters_degrees": {
+        "beta_a": 64.3847648527934,
+        "beta_b": 67.51238626675823,
+        "beta_c": 87.92982062879237,
+        "beta_o": 64.77138035467775,
+        "phase_o": 27.67064138861057
+      },
+      "pattern_count": 79,
+      "pattern_hash": "a8a7135022a8e0588c59dcc1fcc7dd147269fc1cd820dd1f15eb7e18b7aad8d0",
+      "point_count": 75,
+      "point_hash": "8f6b706ab2db46f6eec50ee9b08a545b394ce4b850e645ea39c3898ec91c1ab2",
+      "seed": 99,
+      "solve_seconds": 0.013673080946318805,
+      "status": 0
+    }
+  ]
+}
