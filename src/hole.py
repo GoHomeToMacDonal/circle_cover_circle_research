@@ -71,27 +71,135 @@ def _bisector_circle_points(C: np.ndarray, R: float) -> np.ndarray:
                            m + (-b1 - sq)[:, None] * u], axis=0)
 
 
-def deepest_hole(C: np.ndarray, R: float) -> tuple[float, np.ndarray]:
+def _record_candidate(kind: str, point: np.ndarray, defining_sites: tuple[int, ...],
+                      C: np.ndarray, R: float, tol: float) -> dict | None:
+    point = np.asarray(point, dtype=float)
+    radial = float(np.hypot(point[0], point[1]))
+    if radial > R + tol:
+        return None
+    distances = np.linalg.norm(C - point[None, :], axis=1)
+    value = float(distances.min())
+    nearest = tuple(int(i) for i in np.flatnonzero(distances <= value + tol))
+    if not set(defining_sites).issubset(nearest):
+        return None
+    return {
+        "kind": kind,
+        "point": [float(point[0]), float(point[1])],
+        "defining_sites": [int(i) for i in defining_sites],
+        "nearest_sites": list(nearest),
+        "value": value,
+        # Positive means outside S_R; boundary candidates should be near zero.
+        "radial_residual": radial - float(R),
+    }
+
+
+def hole_candidates(C: np.ndarray, R: float, tol: float = 1e-9) -> list[dict]:
+    """Enumerate legal floating-point deepest-hole candidates.
+
+    The returned records are exploratory numerical observations, not an exact
+    certificate.  A candidate is retained only when its point lies in the closed
+    target disk; ``nearest_sites`` reports the actual numerical nearest sites,
+    which need not equal ``defining_sites`` for a non-active geometric source.
+    ``radial_residual`` is ``|point|-R``.
+    """
     C = np.asarray(C, dtype=float)
-    cand = [np.zeros((1, 2))]
-    v = _circumcenters(C)
-    if len(v):
-        cand.append(v[np.hypot(v[:, 0], v[:, 1]) <= R + 1e-12])
-    cand.append(_bisector_circle_points(C, R))
+    R = float(R)
+    n = len(C)
+    points: list[np.ndarray] = []
+    kinds: list[str] = []
+    definitions: list[tuple[int, ...]] = []
+
+    def add_batch(kind: str, batch: np.ndarray, defs):
+        batch = np.asarray(batch, dtype=float).reshape((-1, 2))
+        points.extend(batch)
+        kinds.extend([kind] * len(batch))
+        definitions.extend([tuple(int(x) for x in item) for item in defs])
+
+    distances0 = np.linalg.norm(C, axis=1)
+    min0 = float(distances0.min()) if n else 0.0
+    add_batch("origin", np.zeros((1, 2)),
+              [tuple(np.flatnonzero(distances0 <= min0 + tol))])
+
+    # All non-collinear triple circumcentres.
+    if n >= 3:
+        idx = _triples(n)
+        a, b, c = C[idx[:, 0]], C[idx[:, 1]], C[idx[:, 2]]
+        det = 2.0 * (a[:, 0] * (b[:, 1] - c[:, 1])
+                     + b[:, 0] * (c[:, 1] - a[:, 1])
+                     + c[:, 0] * (a[:, 1] - b[:, 1]))
+        good = np.abs(det) > 1e-13
+        a, b, c, det, idx = a[good], b[good], c[good], det[good], idx[good]
+        aa, bb, cc = (a * a).sum(axis=1), (b * b).sum(axis=1), (c * c).sum(axis=1)
+        triple_points = np.stack([
+            (aa * (b[:, 1] - c[:, 1]) + bb * (c[:, 1] - a[:, 1])
+             + cc * (a[:, 1] - b[:, 1])) / det,
+            (aa * (c[:, 0] - b[:, 0]) + bb * (a[:, 0] - c[:, 0])
+             + cc * (b[:, 0] - a[:, 0])) / det,
+        ], axis=1)
+        add_batch("triple-circumcenter", triple_points, idx)
+
+    # Both intersections of every perpendicular bisector with S_R.
+    if n >= 2:
+        pair_i, pair_j = np.triu_indices(n, k=1)
+        a, b = C[pair_i], C[pair_j]
+        delta = b - a
+        length = np.hypot(delta[:, 0], delta[:, 1])
+        good = length > 1e-13
+        a, b, delta, length = a[good], b[good], delta[good], length[good]
+        pair_defs = np.stack([pair_i[good], pair_j[good]], axis=1)
+        midpoint = 0.5 * (a + b)
+        direction = np.stack([-delta[:, 1], delta[:, 0]], axis=1) / length[:, None]
+        linear = (midpoint * direction).sum(axis=1)
+        discriminant = linear * linear + R * R - (midpoint * midpoint).sum(axis=1)
+        good = discriminant >= -tol
+        midpoint, direction, linear, discriminant = (x[good] for x in
+            (midpoint, direction, linear, discriminant))
+        pair_defs = pair_defs[good]
+        root = np.sqrt(np.maximum(discriminant, 0.0))
+        add_batch("boundary-bisector",
+                  np.concatenate((midpoint + (-linear + root)[:, None] * direction,
+                                  midpoint + (-linear - root)[:, None] * direction)),
+                  np.concatenate((pair_defs, pair_defs)))
+
+    # Stationary points of the restriction to S_R for every non-origin site.
     rho = np.hypot(C[:, 0], C[:, 1])
-    nz = rho > 1e-13
-    if nz.any():
-        dirs = C[nz] / rho[nz][:, None]
-        cand.append(R * dirs)
-        cand.append(-R * dirs)
-    P = np.concatenate([c for c in cand if len(c)], axis=0)
-    keep = np.hypot(P[:, 0], P[:, 1]) <= R + 1e-9
-    P = P[keep]
-    if len(P) == 0:
+    nonzero = rho > 1e-13
+    if np.any(nonzero):
+        indices = np.flatnonzero(nonzero)
+        dirs = C[nonzero] / rho[nonzero, None]
+        add_batch("boundary-stationary",
+                  np.concatenate((R * dirs, -R * dirs)),
+                  np.concatenate((indices[:, None], indices[:, None])))
+
+    P = np.asarray(points, dtype=float)
+    D = np.linalg.norm(P[:, None, :] - C[None, :, :], axis=2)
+    values = D.min(axis=1)
+    nearest_mask = D <= values[:, None] + tol
+    radial = np.hypot(P[:, 0], P[:, 1])
+    legal = radial <= R + tol
+    out: list[dict] = []
+    for row, (kind, defining) in enumerate(zip(kinds, definitions)):
+        if not legal[row]:
+            continue
+        out.append({
+            "kind": kind,
+            "point": [float(P[row, 0]), float(P[row, 1])],
+            "defining_sites": list(defining),
+            "nearest_sites": [int(i) for i in np.flatnonzero(nearest_mask[row])],
+            "value": float(values[row]),
+            "radial_residual": float(radial[row] - R),
+            "status": "floating-point exploratory",
+        })
+    return out
+
+
+def deepest_hole(C: np.ndarray, R: float) -> tuple[float, np.ndarray]:
+    records = hole_candidates(C, R)
+    if not records:
         return 0.0, np.zeros(2)
-    d = np.linalg.norm(P[:, None, :] - C[None, :, :], axis=2).min(axis=1)
-    k = int(np.argmax(d))
-    return float(d[k]), P[k]
+    k = int(np.argmax([record["value"] for record in records]))
+    record = records[k]
+    return float(record["value"]), np.asarray(record["point"], dtype=float)
 
 
 def covers(C: np.ndarray, R: float, tol: float = 1e-12) -> bool:
