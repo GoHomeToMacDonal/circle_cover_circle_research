@@ -55,19 +55,29 @@ class Klass:
     k: int
     m: int
     center: bool
+    fixed_angles: tuple[float, ...] | None = None
+
+    @property
+    def n_ang(self) -> int:
+        return 0 if self.fixed_angles is not None else max(self.m - 1, 0)
 
     @property
     def dim(self) -> int:
-        return self.m + max(self.m - 1, 0)
+        return self.m + self.n_ang
 
     def n(self) -> int:
         return self.k * self.m + (1 if self.center else 0)
+
+    def _angle(self, j: int, v: np.ndarray) -> float:
+        if self.fixed_angles is not None:
+            return self.fixed_angles[j]
+        return 0.0 if j == 0 else float(v[self.m + j - 1])
 
     def centers(self, v: np.ndarray) -> np.ndarray:
         pts = [np.zeros((1, 2))] if self.center else []
         for j in range(self.m):
             rho = v[j]
-            th = 0.0 if j == 0 else v[self.m + j - 1]
+            th = self._angle(j, v)
             a = th + np.arange(self.k) * 2 * math.pi / self.k
             pts.append(np.stack([rho * np.cos(a), rho * np.sin(a)], axis=1))
         return np.concatenate(pts, axis=0)
@@ -76,7 +86,7 @@ class Klass:
         b = np.zeros((self.dim, 2))
         for j in range(self.m):
             b[j] = (0.0, R + 1.0)
-        for j in range(self.m - 1):
+        for j in range(self.n_ang):
             b[self.m + j] = (0.0, 2 * math.pi / self.k)
         return b
 
@@ -89,7 +99,10 @@ class Klass:
         h = 0.5 * (box[:, 1] - box[:, 0])
         out = np.empty(self.m)
         for j in range(self.m):
-            ang = 0.0 if j == 0 else h[self.m + j - 1]
+            if self.fixed_angles is not None or j == 0:
+                ang = 0.0
+            else:
+                ang = h[self.m + j - 1]
             out[j] = h[j] + box[j, 1] * ang
         return out
 
@@ -102,7 +115,7 @@ class Klass:
         contrib = np.zeros(self.dim)
         j_star = int(np.argmax(self.delta_terms(box)))
         contrib[j_star] = h[j_star]
-        if j_star > 0:
+        if self.fixed_angles is None and j_star > 0:
             contrib[self.m + j_star - 1] = box[j_star, 1] * h[self.m + j_star - 1]
         if contrib.max() <= 0:
             return int(np.argmax(h))
@@ -155,8 +168,10 @@ def radial_arc_eliminates(kl: Klass, box: np.ndarray, R: float,
 
 
 def prove_class(kl: Klass, R: float, max_nodes: int = 2_000_000,
-                min_width: float = 1e-9, verbose: bool = False,
-                n_arc: int = 60):
+                min_width: float = 1e-12, verbose: bool = False,
+                n_arc: int = 60, safety: float = 1e-11):
+    """safety absorbs double-precision error: a box is only eliminated when
+    H(C(v0),R) - delta(V) > 1 + safety."""
     rmax = R + 1.0
     box0 = kl.initial_box(R)
     heap: list[Node] = []
@@ -172,9 +187,9 @@ def prove_class(kl: Klass, R: float, max_nodes: int = 2_000_000,
         H = deepest_hole_symmetric(kl.centers(v0), R, kl.k)
         return H - kl.delta(b)
 
-    if test(box0) > 1.0:
+    if test(box0) > 1.0 + safety:
         return {"proved": True, "nodes": 1, "n_survivors": 0, "stats": stats}
-    heapq.heappush(heap, Node(test(box0), box0))
+    heapq.heappush(heap, Node(test(box0), box0))  # not eliminated
     nodes = 0
     survivors: list[np.ndarray] = []
     while heap:
@@ -198,7 +213,7 @@ def prove_class(kl: Klass, R: float, max_nodes: int = 2_000_000,
             if any(nb[t, 0] > nb[t + 1, 1] for t in range(kl.m - 1)):
                 continue
             m2 = test(nb)
-            if m2 <= 1.0:
+            if m2 <= 1.0 + safety:
                 heapq.heappush(heap, Node(m2, nb))
             else:
                 stats["lip"] += 1
